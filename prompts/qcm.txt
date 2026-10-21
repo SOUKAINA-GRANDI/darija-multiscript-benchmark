@@ -1,0 +1,12 @@
+Lis le texte en darija marocaine, puis réponds à la question.
+Réponds uniquement par une seule lettre : A, B, C ou D. N'ajoute aucune explication.
+
+Texte : {texte}
+
+Question : {question}
+A) {choix_a}
+B) {choix_b}
+C) {choix_c}
+D) {choix_d}
+
+Réponse :

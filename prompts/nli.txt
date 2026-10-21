@@ -1,0 +1,8 @@
+Voici deux phrases en darija marocaine.
+Indique la relation entre la prémisse et l'hypothèse.
+Réponds uniquement par un seul mot : implication, contradiction ou neutre. N'ajoute aucune explication.
+
+Prémisse : {texte}
+Hypothèse : {texte_2}
+
+Réponse :

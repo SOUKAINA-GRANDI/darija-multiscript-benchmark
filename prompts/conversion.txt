@@ -1,0 +1,7 @@
+Convertis cette phrase en darija marocaine vers {cible}.
+Ne traduis pas, ne corrige pas, ne reformule pas : change seulement l'écriture.
+Réponds uniquement avec la phrase convertie, sans explication ni mise en forme.
+
+Phrase : {texte}
+
+Conversion :

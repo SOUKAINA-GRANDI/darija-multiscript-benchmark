@@ -1,0 +1,33 @@
+﻿id,tache,graphie,modele,model_id,date,temperature,reponse_brute,erreur,gold,gold_alt,pred,correct,cer
+Q-001,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:19:47,0.0,B,,B,,B,1.0,
+Q-001,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:03,0.0,B,,B,,B,1.0,
+Q-002,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:13,0.0,A,,A,,A,1.0,
+Q-002,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:15,0.0,A,,A,,A,1.0,
+Q-003,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:19,0.0,C,,C,,C,1.0,
+Q-003,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:21,0.0,C,,C,,C,1.0,
+Q-004,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:24,0.0,D,,D,,D,1.0,
+Q-004,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:26,0.0,D,,D,,D,1.0,
+Q-005,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:28,0.0,B,,B,,B,1.0,
+Q-005,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:30,0.0,B,,B,,B,1.0,
+N-001a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:32,0.0,implication,,implication,,implication,1.0,
+N-001a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:35,0.0,implication,,implication,,implication,1.0,
+N-001b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:38,0.0,contradiction,,contradiction,,contradiction,1.0,
+N-001b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:40,0.0,contradiction,,contradiction,,contradiction,1.0,
+N-001c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:42,0.0,neutre,,neutre,,neutre,1.0,
+N-001c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:44,0.0,neutre,,neutre,,neutre,1.0,
+N-002a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:46,0.0,implication,,implication,,implication,1.0,
+N-002a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:48,0.0,implication,,implication,,implication,1.0,
+N-002b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:50,0.0,contradiction,,contradiction,,contradiction,1.0,
+N-002b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:52,0.0,contradiction,,contradiction,,contradiction,1.0,
+N-002c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:54,0.0,neutre,,neutre,,neutre,1.0,
+N-002c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:55,0.0,neutre,,neutre,,neutre,1.0,
+C-001,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:57,0.0,3jbni had lfilm bzaf.,,3jebni had lfilm bzaf.,3jbni had lfilm bzzaf.|3jebni had l film bzaf.,3jbni had lfilm bzaf.,0.0,0.048
+C-001,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:20:59,0.0,عجبني هاد الفيلم بزاف.,,عجبني هاد الفيلم بزاف.,,عجبني هاد الفيلم بزاف.,1.0,0.0
+C-002,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:21:05,0.0,fin ghadi tmsi f had l3tla?,,Fin ghadi tmchi fhad l3otla?,fin ghati tmchi fhad l3otla?|fen ghadi tmchi f had l3otla?,fin ghadi tmsi f had l3tla?,0.0,0.143
+C-002,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:21:07,0.0,فين غادي تمشي فهاد اللعطة؟,,فين غادي تمشي فهاد العطلة؟,,فين غادي تمشي فهاد اللعطة؟,0.0,0.08
+C-003,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:21:10,0.0,lmakla dyal had ristaw bnina w nqiya.,,Lmakla dyal had rresto bnina w n9iya.,lmakla dial had resto bnina w nqiya.,lmakla dyal had ristaw bnina w nqiya.,0.0,0.114
+C-003,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:21:12,0.0,الماكلة ديال هاد رستو بنينة ونقية.,,الماكلة ديال هاد الريسطو بنينة ونقية.,,الماكلة ديال هاد رستو بنينة ونقية.,0.0,0.111
+C-004,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:21:14,0.0,ma karechta nchrob kas d atay meshhar.,,Ma krehtch nchreb kas d atay mche77er.,makrehtch nchrob kas d atay mche7er.,ma karechta nchrob kas d atay meshhar.,0.0,0.286
+C-004,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:21:16,0.0,ما كرهتش نشرب كاس د أتاي مشعحر.,,ما كرهتش نشرب كاس د أتاي مشحر.,,ما كرهتش نشرب كاس د أتاي مشعحر.,0.0,0.034
+C-005,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:21:20,0.0,"sm7 lia, wach kta3ref fin kayn el bank?",,"Sme7 lia, wach kat3ref fin kayen lbank?","sme7liya, wach kat3ref fin kayn lbank?","sm7 lia, wach kta3ref fin kayn el bank?",0.0,0.162
+C-005,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-21T16:21:22,0.0,سمعت لي، واش كتعرف فين كاين البنك؟,,سمح ليا، واش كتعرف فين كاين البنك؟,,سمعت لي، واش كتعرف فين كاين البنك؟,0.0,0.094
