@@ -1,0 +1,11 @@
+Réponds à la question suivante en choisissant une seule lettre : A, B, C ou D.
+Réponds uniquement par une lettre, sans explication.
+
+Question : {question}
+
+A) {choix_a}
+B) {choix_b}
+C) {choix_c}
+D) {choix_d}
+
+Réponse :
