@@ -1,0 +1,200 @@
+﻿id,tache,graphie,modele,model_id,date,temperature,reponse_brute,erreur,split,gold,gold_alt,pred,correct,cer,script_ok
+Q-001,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:11:08,0.0,B ,,dev,B,,B,1.0,,
+Q-001,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:11:10,0.0,B ,,dev,B,,B,1.0,,
+Q-002,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:11:12,0.0,A ,,dev,A,,A,1.0,,
+Q-002,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:11:13,0.0,A ,,dev,A,,A,1.0,,
+Q-003,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:11:15,0.0,C ,,dev,C,,C,1.0,,
+Q-003,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:11:17,0.0,C ,,dev,C,,C,1.0,,
+Q-004,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:11:19,0.0,D ,,dev,D,,D,1.0,,
+Q-004,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:11:21,0.0,D ,,dev,D,,D,1.0,,
+Q-005,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:11:22,0.0,B ,,dev,B,,B,1.0,,
+Q-005,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:11:24,0.0,B ,,dev,B,,B,1.0,,
+Q-006,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:11:26,0.0,B ,,dev,B,,B,1.0,,
+Q-006,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:11:28,0.0,C ,,dev,B,,C,0.0,,
+Q-007,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:11:29,0.0,C ,,dev,C,,C,1.0,,
+Q-007,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:11:31,0.0,A ,,dev,C,,A,0.0,,
+Q-008,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:11:33,0.0,D ,,dev,D,,D,1.0,,
+Q-008,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:11:34,0.0,D ,,dev,D,,D,1.0,,
+Q-009,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:11:36,0.0,A ,,dev,A,,A,1.0,,
+Q-009,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:11:38,0.0,A ,,dev,A,,A,1.0,,
+Q-010,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:11:40,0.0,B ,,dev,B,,B,1.0,,
+Q-010,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:11:41,0.0,B ,,dev,B,,B,1.0,,
+N-001a,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:11:43,0.0,implication ,,dev,implication,,implication,1.0,,
+N-001a,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:11:45,0.0,implication ,,dev,implication,,implication,1.0,,
+N-001b,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:11:47,0.0,contradiction ,,dev,contradiction,,contradiction,1.0,,
+N-001b,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:11:48,0.0,contradiction ,,dev,contradiction,,contradiction,1.0,,
+N-001c,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:11:50,0.0,implication ,,dev,neutre,,implication,0.0,,
+N-001c,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:11:52,0.0,implication ,,dev,neutre,,implication,0.0,,
+N-002a,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:11:54,0.0,implication ,,dev,implication,,implication,1.0,,
+N-002a,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:11:55,0.0,implication ,,dev,implication,,implication,1.0,,
+N-002b,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:11:57,0.0,contradiction ,,dev,contradiction,,contradiction,1.0,,
+N-002b,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:11:59,0.0,contradiction ,,dev,contradiction,,contradiction,1.0,,
+N-002c,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:12:01,0.0,contradiction ,,dev,neutre,,contradiction,0.0,,
+N-002c,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:12:05,0.0,contradiction ,,dev,neutre,,contradiction,0.0,,
+N-003a,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:12:08,0.0,implication ,,dev,implication,,implication,1.0,,
+N-003a,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:12:12,0.0,implication ,,dev,implication,,implication,1.0,,
+N-003b,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:12:16,0.0,contradiction ,,dev,contradiction,,contradiction,1.0,,
+N-003b,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:12:20,0.0,implication ,,dev,contradiction,,implication,0.0,,
+N-003c,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:12:24,0.0,Neutre ,,dev,neutre,,neutre,1.0,,
+N-003c,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:12:28,0.0,implication ,,dev,neutre,,implication,0.0,,
+N-004a,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:12:32,0.0,implication ,,dev,implication,,implication,1.0,,
+N-004a,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:12:35,0.0,contradiction ,,dev,implication,,contradiction,0.0,,
+N-004b,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:12:39,0.0,contradiction ,,dev,contradiction,,contradiction,1.0,,
+N-004b,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:12:43,0.0,contradiction ,,dev,contradiction,,contradiction,1.0,,
+N-004c,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:12:48,0.0,implication ,,dev,neutre,,implication,0.0,,
+N-004c,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:12:49,0.0,implication ,,dev,neutre,,implication,0.0,,
+C-001,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:12:51,0.0,"عجبني هاد الفيلم بزاف. 
+
+الترجمة بالعربية الفصحى تعني ""أعجبني هذا الفيلم كثيراً"". لكن بناءً على طلبك، قمت بتحويل الجملة من الدارجة المغربية إلى العربية الفصحى باستخدام الحروف اللاتينية. ",,dev,3jebni had lfilm bzaf.,3jbni had lfilm bzzaf.|3jebni had l film bzaf.,عجبني هاد الفيلم بزاف.,0.0,0.864,0.0
+C-001,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:12:56,0.0,عجبني هاد الفيلم بزاف. ,,dev,عجبني هاد الفيلم بزاف.,,عجبني هاد الفيلم بزاف.,1.0,0.0,1.0
+C-002,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:12:58,0.0,"فين غادي تمشي فهاد العطلة؟ 
+
+الترجمة بالعربية الفصحى تعني ""إلى أين تنوي الذهاب خلال هذه العطلة؟"" ",,dev,Fin ghadi tmchi fhad l3otla?,fin ghati tmchi fhad l3otla?|fen ghadi tmchi f had l3otla?,فين غادي تمشي فهاد العطلة؟,0.0,0.852,0.0
+C-002,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:12:59,0.0,فين غادي تمشي هاد العطلة؟ ,,dev,فين غادي تمشي فهاد العطلة؟,,فين غادي تمشي هاد العطلة؟,0.0,0.04,1.0
+C-003,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:13:03,0.0,"الماكلة ديال هاد الريستورا بنينة ونقية. 
+
+في هذه الترجمة، قمت بتحويل الجملة من الدارجة المغربية إلى العربية باستخدام الحروف اللاتينية. ",,dev,Lmakla dyal had rresto bnina w n9iya.,lmakla dial had resto bnina w nqiya.,الماكلة ديال هاد الريستورا بنينة ونقية.,0.0,0.944,0.0
+C-003,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:13:07,0.0,"المطعمة ديال هاد المطعم بنينة وفيها نيتة. 
+
+في هذه الترجمة، قمت بتحويل الكلمات من الفرنسية إلى العربية المغربية والكتابة العربية. تم الحفاظ على المعنى الأصلي للجملة مع تغيير اللغة والكتابة فقط كما طُلب في السؤال. ",,dev,الماكلة ديال هاد الريسطو بنينة ونقية.,,المطعمة ديال هاد المطعم بنينة وفيها نيتة.,0.0,0.417,1.0
+C-004,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:13:12,0.0,ما كرهاش نشرب كاس دا تاي مشحر ,,dev,Ma krehtch nchreb kas d atay mche77er.,makrehtch nchrob kas d atay mche7er.,ما كرهاش نشرب كاس دا تاي مشحر,0.0,0.865,0.0
+C-004,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:13:14,0.0,مقالي النقدي لا يعجب دائما القارئ المتسرع. ,,dev,ما كرهتش نشرب كاس د أتاي مشحر.,,مقالي النقدي لا يعجب دائما القارئ المتسرع.,0.0,0.966,1.0
+C-005,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:13:19,0.0,"سماح ليا، واش كتعرف فين كاين البنك؟ 
+
+في هذه الترجمة، قمت بتحويل الكلمات من العربية المغربية إلى العربية باستخدام الحروف اللاتينية. يرجى مراعاة أن الترجمة قد لا تكون حرفية وقد تعتمد على الفهم العام للمحادثة. إذا كنت بحاجة إلى ترجمة دقيقة، يُفضل استخدام خدمات الترجمة المتخصصة. ",,dev,"Sme7 lia, wach kat3ref fin kayen lbank?","sme7liya, wach kat3ref fin kayn lbank?",سماح ليا، واش كتعرف فين كاين البنك؟,0.0,0.838,0.0
+C-005,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:13:21,0.0,شمه ليا، واش تعرف فين كاين البنك؟ ,,dev,سمح ليا، واش كتعرف فين كاين البنك؟,,شمه ليا، واش تعرف فين كاين البنك؟,0.0,0.094,1.0
+C-006,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:13:25,0.0,بغا نمشي لسوق بكري ,,dev,bghit nmchi lssou9 bekri.,bghit nmchi l sou9 bekri.|bghit nmchi lsou9 bkri.,بغا نمشي لسوق بكري,0.0,0.864,0.0
+C-006,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:13:27,0.0,"بغيت نمشي للسوق بكري. 
+
+في هذه الترجمة، قمت بتحويل الجملة من الفرنسية إلى العربية المغربية باستخدام الكتابة العربية. تعني الجملة ""أريد أن أذهب إلى السوق مبكراً"". ",,dev,بغيت نمشي للسوق بكري.,,بغيت نمشي للسوق بكري.,1.0,0.0,1.0
+C-007,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:13:31,0.0,"شحال كيدير هاد الكيلو ديال التفاح؟ 
+
+الترجمة بالعربية المغربية: ""كيفاش كيبيع هاد الكيلوا ديال التفاح؟"" ",,dev,Ch7al kaydir had lkilo dyal tteffa7?,chhal kaydir had lkilo dial teffah?|ch7al kidir had lkilo d tfa7?,شحال كيدير هاد الكيلو ديال التفاح؟,0.0,0.882,0.0
+C-007,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:13:33,0.0,شحال كي دير هاد الكيلوا ديال التفاح؟ ,,dev,شحال كيدير هاد الكيلو ديال التفاح؟,,شحال كي دير هاد الكيلوا ديال التفاح؟,0.0,0.061,1.0
+C-008,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:13:37,0.0,"بغايت نسولك علاشوقيت ديال الخدمة غدوا. 
+
+في هذه الترجمة، تم تحويل الجملة من اللغة العربية المغربية إلى العربية باستخدام الحروف اللاتينية. تم الحفاظ على المعنى الأصلي للجملة مع تغيير الكتابة فقط وفقاً للتعليمات المعطاة. ",,dev,Bghit nsowlek 3la tw9it dyal lkhedma ghedda.,bghit nsowlk 3la lwa9t dl khedma ghdda.|bghit nsewlek 3la taw9it dial lkhdma ghda.,بغايت نسولك علاشوقيت ديال الخدمة غدوا.,0.0,0.878,0.0
+C-008,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:13:39,0.0,بغيتو نسولو على توقيت الخدمة الحكومية ,,dev,بغيت نسولك على التوقيت ديال الخدمة غدا.,,بغيتو نسولو على توقيت الخدمة الحكومية,0.0,0.447,1.0
+C-009,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:13:44,0.0,"تبرك الله عليك، راك خدمتي مزيان فهاد المشروع. 
+
+في هذه الترجمة، قمت بتحويل النص من العربية المغربية إلى العربية باستخدام الحروف اللاتينية. النص الأصلي كان عبارة عن تهنئة لشخص على عمله الجيد في مشروع معين، وقد قمت بترجمته بنفس المعنى ولكن بالأحرف اللاتينية لتسهيل الفهم للقارئ الذي لا يتحدث العربية المغربية. ",,dev,"Tbarkellah 3lik, rak khedmeti mzyan fhad lmachrou3.","tbarkellah 3lik, rak khdemti mezyan f had lmachro3.",تبرك الله عليك، راك خدمتي مزيان فهاد المشروع.,0.0,0.878,0.0
+C-009,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:13:46,0.0,بارك الله فيك، راك خدمتي مع هاد المشروع. ,,dev,تبارك الله عليك، راك خدمتي مزيان فهاد المشروع.,,بارك الله فيك، راك خدمتي مع هاد المشروع.,0.0,0.182,1.0
+C-010,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:13:50,0.0,"كنتمنى ليك التوفيق والنجاح فالامتحان ديالك. 
+
+الترجمة إلى العربية: أتمنى لك التوفيق والنجاح في امتحانك. ",,dev,Kantmenna lik ttawfi9 w nnaja7 f lmtihan dyalek.,kantmna lik tawfiq w najah f limti7an dialk.|kantmenna lik tawfi9 w naja7.,كنتمنى ليك التوفيق والنجاح فالامتحان ديالك.,0.0,0.894,0.0
+C-010,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:13:52,0.0,كنا نتمنا ليك التوفيق والنجاح فالمتحان ديالك. ,,dev,كنتمنى ليك التوفيق والنجاح فالامتحان ديالك.,,كنا نتمنا ليك التوفيق والنجاح فالمتحان ديالك.,0.0,0.119,1.0
+Q-011,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:13:54,0.0,C ,,test,C,,C,1.0,,
+Q-011,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:13:58,0.0,C ,,test,C,,C,1.0,,
+Q-012,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:14:00,0.0,A ,,test,A,,A,1.0,,
+Q-012,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:14:03,0.0,A ,,test,A,,A,1.0,,
+Q-013,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:14:05,0.0,D ,,test,D,,D,1.0,,
+Q-013,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:14:09,0.0,D ,,test,D,,D,1.0,,
+Q-014,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:14:13,0.0,B ,,test,B,,B,1.0,,
+Q-014,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:24:16,0.0,B ,,test,B,,B,1.0,,
+Q-015,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:24:18,0.0,A ,,test,A,,A,1.0,,
+Q-015,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:24:20,0.0,B ,,test,A,,B,0.0,,
+Q-016,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:24:22,0.0,C ,,test,C,,C,1.0,,
+Q-016,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:24:24,0.0,C ,,test,C,,C,1.0,,
+N-005a,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:24:26,0.0,implication ,,test,implication,,implication,1.0,,
+N-005a,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:24:27,0.0,contradiction ,,test,implication,,contradiction,0.0,,
+N-005b,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:24:29,0.0,contradiction ,,test,contradiction,,contradiction,1.0,,
+N-005b,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:24:31,0.0,implication ,,test,contradiction,,implication,0.0,,
+N-005c,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:24:33,0.0,implication ,,test,neutre,,implication,0.0,,
+N-005c,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:24:35,0.0,implication ,,test,neutre,,implication,0.0,,
+N-006a,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:24:37,0.0,implication ,,test,implication,,implication,1.0,,
+N-006a,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:24:39,0.0,contradiction ,,test,implication,,contradiction,0.0,,
+N-006b,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:24:41,0.0,contradiction ,,test,contradiction,,contradiction,1.0,,
+N-006b,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:24:43,0.0,contradiction ,,test,contradiction,,contradiction,1.0,,
+N-006c,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:24:46,0.0,implication ,,test,neutre,,implication,0.0,,
+N-006c,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:24:48,0.0,implication ,,test,neutre,,implication,0.0,,
+C-011,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:24:50,0.0,فين وصلي، راني كنتسناك حدا لمحطة. ,,test,"Fin wselti, rani kantsnak 7da lma7atta.","fin wsliti, rani kantsenak 7da lmahata.|fen wselti rani kantsnak.",فين وصلي، راني كنتسناك حدا لمحطة.,0.0,0.865,0.0
+C-011,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:24:56,0.0,"فِينْ وَصَلْتِي, رَانِي كُنْتَسْنَاكْ سَبْعَة دِ الْمَحَطَّةَا. ",,test,فين وصلتي، راني كنتسناك حدا المحطة.,,"فِينْ وَصَلْتِي, رَانِي كُنْتَسْنَاكْ سَبْعَة دِ الْمَحَطَّةَا.",0.0,0.909,1.0
+C-012,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:24:57,0.0,"خاصك تشرب الدوا فوقتو وتبع الريجيم. 
+
+الترجمة بالعربية الفصحى تعني: ""يجب عليك شرب الدواء في وقته واتباع النظام الغذائي."" ",,test,Khassek tchreb ddwa f we9to w ttebbe3 rrijim.,khasek tchrob dwa f weqto w tebe3 rijim.|khask tchreb ddwa.,خاصك تشرب الدوا فوقتو وتبع الريجيم.,0.0,0.897,0.0
+C-012,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:24:59,0.0,خصامك شرب الدواء في عروقه وتنبّه رجيم. ,,test,خاصك تشرب الدوا فوقتو وتبع الريجيم.,,خصامك شرب الدواء في عروقه وتنبّه رجيم.,0.0,0.471,1.0
+C-013,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:25:01,0.0,"صيفط ليا الإيميل باش نشوف الدوسي اليوم. 
+
+الترجمة بالإنجليزية: Send me the email to see the file today. ",,test,Seyfet lia l'email bach nchouf ddossier lyoma.,sift liya l email bach nchof dossier lyom.|sayfet lia l'email.,صيفط ليا الإيميل باش نشوف الدوسي اليوم.,0.0,0.867,0.0
+C-013,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:25:03,0.0,سيفت ليا الايميل باش نشوف الملف اليوم. ,,test,صيفط ليا الإيميل باش نشوف الدوسي اليوم.,,سيفت ليا الايميل باش نشوف الملف اليوم.,0.0,0.158,1.0
+C-014,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:25:05,0.0,"فعاك شحاال الحاسبة كامل؟ 
+
+في هذه الترجمة، تم تحويل الجملة من العربية المغربية إلى العربية باستخدام الحروف اللاتينية. تم الحفاظ على معنى الجملة كما هو دون تغيير في النص الأصلي. ",,test,3afak ch7al l7ssab kamel?,3afak chhal lhesab kamel?|3afak ch7al le7ssab kamel?,فعاك شحاال الحاسبة كامل؟,0.0,0.88,0.0
+C-014,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:25:07,0.0,عفتك شحال الحساب كامل؟ ,,test,عفاك شحال الحساب كامل؟,,عفتك شحال الحساب كامل؟,0.0,0.048,1.0
+Q-017,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:25:08,0.0,C ,,test,C,,C,1.0,,
+Q-017,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:25:10,0.0,C ,,test,C,,C,1.0,,
+Q-018,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:25:16,0.0,D ,,test,D,,D,1.0,,
+Q-018,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:25:18,0.0,D ,,test,D,,D,1.0,,
+Q-019,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:25:20,0.0,A ,,test,A,,A,1.0,,
+Q-019,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:25:22,0.0,A ,,test,A,,A,1.0,,
+Q-020,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:25:23,0.0,B ,,test,B,,B,1.0,,
+Q-020,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:25:25,0.0,A ,,test,B,,A,0.0,,
+N-007a,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:25:27,0.0,implication ,,test,implication,,implication,1.0,,
+N-007a,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:25:28,0.0,implication ,,test,implication,,implication,1.0,,
+N-007b,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:25:30,0.0,contradiction ,,test,contradiction,,contradiction,1.0,,
+N-007b,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:25:32,0.0,contradiction ,,test,contradiction,,contradiction,1.0,,
+N-007c,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:25:34,0.0,implication ,,test,neutre,,implication,0.0,,
+N-007c,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:25:36,0.0,Neutre ,,test,neutre,,neutre,1.0,,
+N-008a,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:25:38,0.0,implication ,,test,implication,,implication,1.0,,
+N-008a,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:25:40,0.0,contradiction ,,test,implication,,contradiction,0.0,,
+N-008b,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:25:42,0.0,contradiction ,,test,contradiction,,contradiction,1.0,,
+N-008b,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:25:43,0.0,contradiction ,,test,contradiction,,contradiction,1.0,,
+N-008c,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:25:45,0.0,implication ,,test,neutre,,implication,0.0,,
+N-008c,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:25:47,0.0,implication ,,test,neutre,,implication,0.0,,
+C-015,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:25:49,0.0,"الله يعطيك الصحة على هاد المجهود. 
+
+في العربية المغربية المحكية باستخدام الحروف اللاتينية، يتم تحويل الجملة إلى ""Allah ykhdemk sa7a 3la هاد muhajadat"". ",,test,Llah ya3tik sse77a 3la had lmajhoub.,llah y3tik saha 3la had lmejhoud.|lah ya3tik se7a.,الله يعطيك الصحة على هاد المجهود.,0.0,0.857,0.0
+C-015,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:25:50,0.0,الله يعطيك السعادة على هاد المحبوب. ,,test,الله يعطيك الصحة على هاد المجهود.,,الله يعطيك السعادة على هاد المحبوب.,0.0,0.219,1.0
+C-016,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:25:54,0.0,"في واحد زهر صعيب اليوم فالزنقة. 
+
+في هذه الترجمة، تم تحويل الجملة من الدارجة المغربية إلى العربية باستخدام الحروف اللاتينية. تم الحفاظ على المعنى الأصلي للجملة مع تغيير الكتابة فقط وفقاً للتعليمات المعطاة. ",,test,Kayen wa7ed sshed s3ib lyoma f zzen9a.,kayn wahd shed s3ib lyom f zanqa.|kayn wahed sehd s3ib.,في واحد زهر صعيب اليوم فالزنقة.,0.0,0.865,0.0
+C-016,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:25:58,0.0,كاين واحد الشدو صبيب ليوم ف زنيقة. ,,test,كاين واحد الصهد صعيب اليوم فالزنقة.,,كاين واحد الشدو صبيب ليوم ف زنيقة.,0.0,0.235,1.0
+C-017,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:26:02,0.0,"سلّم ليا عْلَى الْوَالِد وَالدّار كَامِلِين. 
+
+في هذه الترجمة، قمت بتحويل الجملة من اللغة العربية الفصحى إلى العربية المغربية باستخدام الحروف اللاتينية. الجملة تعني ""قل لي السلام على الوالد والبيت بأكمله"" باللهجة المغربية. ",,test,Sellem lia 3la lwalid w ddar kamlin.,slem liya 3la lwalid w dar kamlin.|sellem 3la lwalid.,سلّم ليا عْلَى الْوَالِد وَالدّار كَامِلِين.,0.0,1.143,0.0
+C-017,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:26:07,0.0,سمح ليا 3la لوالدي ودار كاملين. ,,test,سلم ليا على الوالد والدار كاملين.,,سمح ليا 3la لوالدي ودار كاملين.,0.0,0.281,1.0
+C-018,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:26:09,0.0,"واش عندك الصرف لميتين درهم؟ 
+
+في هذه الترجمة، قمت بتحويل الجملة من العربية المغربية إلى العربية باستخدام الحروف اللاتينية. الجملة تعني ""هل لديك صرف المائتي درهم؟"" ",,test,Wach 3ndek ssarf dyal miyatayn derham?,wach 3ndk sarf dial 200 derham?|wach 3ndek ssarf d mitin drhm?,واش عندك الصرف لميتين درهم؟,0.0,0.862,0.0
+C-018,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:26:11,0.0,واش عندك صرف ديال ميتي درهم؟ ,,test,واش عندك الصرف ديال ميتين درهم؟,,واش عندك صرف ديال ميتي درهم؟,0.0,0.1,1.0
+Q-021,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:26:13,0.0,D ,,test,D,,D,1.0,,
+Q-021,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:26:15,0.0,D ,,test,D,,D,1.0,,
+Q-022,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:26:19,0.0,A ,,test,A,,A,1.0,,
+Q-022,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:26:24,0.0,A ,,test,A,,A,1.0,,
+Q-023,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:26:26,0.0,C ,,test,C,,C,1.0,,
+Q-023,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:29:12,0.0,C ,,test,C,,C,1.0,,
+Q-024,qcm,ar,allam-2-7b,allam-2-7b,2026-10-21T18:29:15,0.0,D ,,test,D,,D,1.0,,
+Q-024,qcm,lat,allam-2-7b,allam-2-7b,2026-10-21T18:29:17,0.0,D ,,test,D,,D,1.0,,
+N-011a,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:29:18,0.0,implication ,,test,implication,,implication,1.0,,
+N-011a,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:29:20,0.0,implication ,,test,implication,,implication,1.0,,
+N-011b,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:29:22,0.0,contradiction ,,test,contradiction,,contradiction,1.0,,
+N-011b,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:29:24,0.0,implication ,,test,contradiction,,implication,0.0,,
+N-011c,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:29:26,0.0,implication ,,test,neutre,,implication,0.0,,
+N-011c,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:29:37,0.0,contradiction ,,test,neutre,,contradiction,0.0,,
+N-012a,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:29:39,0.0,implication ,,test,implication,,implication,1.0,,
+N-012a,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:29:40,0.0,contradiction ,,test,implication,,contradiction,0.0,,
+N-012b,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:29:42,0.0,contradiction ,,test,contradiction,,contradiction,1.0,,
+N-012b,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:29:44,0.0,contradiction ,,test,contradiction,,contradiction,1.0,,
+N-012c,nli,ar,allam-2-7b,allam-2-7b,2026-10-21T18:30:04,0.0,implication ,,test,neutre,,implication,0.0,,
+N-012c,nli,lat,allam-2-7b,allam-2-7b,2026-10-21T18:30:06,0.0,implication ,,test,neutre,,implication,0.0,,
+C-019,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:30:08,0.0,"مابقيتش فيا الحال, المهم هي الصحاب والسلامة. ",,test,"Ma b9ach fiya l7al, lmouhim hiya sse77a w ssalama.","mab9ach fia lhal, lmohim hya seha w salama.|ma b9ach fiya lhal.","مابقيتش فيا الحال, المهم هي الصحاب والسلامة.",0.0,0.896,0.0
+C-019,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:30:10,0.0,بَغِيَّ فِيَّ الحَالِ، المَهْمُوْمُ هِيَ سَعَادَةُ وَسَلاَمَةُ ,,test,ما بقاش فيا الحال، المهم هي الصحة والسلامة.,,بَغِيَّ فِيَّ الحَالِ، المَهْمُوْمُ هِيَ سَعَادَةُ وَسَلاَمَةُ,0.0,0.854,1.0
+C-020,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:30:13,0.0,واش هاد تْوبيس كي دوز عْلى جَامِع الفنا؟ ,,test,Wach had ttobis kaydouz 3la Jame3 lfna?,wach had tobis kidouz 3la jama3 lfna?|wach had ttobis kaydoz 3la jame3 lfna?,واش هاد تْوبيس كي دوز عْلى جَامِع الفنا؟,0.0,0.919,0.0
+C-020,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:30:14,0.0,واش هاد التبغيس كيديز 3لا جمعي لفنا؟ ,,test,واش هاد الطوبيس كيدوز على جامع الفنا؟,,واش هاد التبغيس كيديز 3لا جمعي لفنا؟,0.0,0.25,1.0
+C-021,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:30:16,0.0,"الخدمة كاينة ولكن خاص بنادم يصبر ويزير راسو. 
+
+في هذه الترجمة، قمت بتحويل النص من العربية المغربية إلى العربية باستخدام الحروف اللاتينية. النص الأصلي يتحدث عن وجود الخدمة ولكن يتطلب من الإنسان الصبر والتحكم في نفسه. ",,test,Lkhedma kayna walakin khas bnadem yssber w yzeyyer rassou.,lkhdma kayna walakin khass bnadem ysber.|lkhedma kayna walakin khas bnadm ysber.,الخدمة كاينة ولكن خاص بنادم يصبر ويزير راسو.,0.0,0.877,0.0
+C-021,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:30:18,0.0,الخدمة كاينة لكن خاص بنadem يسبر ويزيي راسوه ,,test,الخدمة كاينة ولكن خاص بنادم يصبر ويزير راسو.,,الخدمة كاينة لكن خاص بنadem يسبر ويزيي راسوه,0.0,0.186,1.0
+C-022,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:30:39,0.0,"نقص ليا شي حجا فالثمن راني كليان قديم عندك. 
+
+في هذه الترجمة، قمت بتحويل النص من العربية المغربية إلى العربية باستخدام الحروف اللاتينية. يرجى مراعاة أن الترجمة قد لا تكون حرفية وقد تعكس لهجة مختلفة قليلاً. ",,test,N9es lia chwiya f ttaman rani klyan 9dim 3ndek.,n9es liya chwia f taman rani cliyan qdim 3ndk.|n9es lia chwiya f taman.,نقص ليا شي حجا فالثمن راني كليان قديم عندك.,0.0,0.848,0.0
+C-022,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:30:41,0.0,ماشي شوية فتمامين راني كليان 9ديم عندك ,,test,نقص ليا شوية فالثمن راني كليان قديم عندك.,,ماشي شوية فتمامين راني كليان 9ديم عندك,0.0,0.275,1.0
+C-023,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:30:43,0.0,"سد الشرجم راه كيدخل البرد بزاف لبيت النعاس. 
+
+الترجمة بالعربية الفصحى: أغلق النافذة لأن البرد يدخل بكثرة إلى غرفة النوم. ",,test,Sedd ccherjem rah kaydkhol lberd bzaf l bit nna3s.,sedd cherjam rah kaydkhol lberd bzaf.|sed cherjem rah kidkhol lberd.,سد الشرجم راه كيدخل البرد بزاف لبيت النعاس.,0.0,0.878,0.0
+C-023,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:30:45,0.0,سدّ جرحه راه كيدخل البرد بزاف لبيت الناس. ,,test,سد الشرجم راه كيدخل البرد بزاف لبيت النعاس.,,سدّ جرحه راه كيدخل البرد بزاف لبيت الناس.,0.0,0.167,1.0
+C-024,conversion,ar,allam-2-7b,allam-2-7b,2026-10-21T18:30:47,0.0,"الويفي تقيل بزاف اليوم، واقيلا خاصنا نروديماريو الروتور. 
+
+في العربية المغربية المكتوبة بالأحرف اللاتينية، يمكن تحويل الجملة إلى:
+""الويفي تقيل بزاف اليوم، واقيلا خاصنا نروديماريو الروتور."" ",,test,"Lwifi t9il bzaf lyoma, wa9ila khasna nredemariw lrouteur.","lwifi tqil bzaf lyom, waqila khassna nredemariw routeur.|l wifi t9il bzaf lyoma.",الويفي تقيل بزاف اليوم، واقيلا خاصنا نروديماريو الروتور.,0.0,0.891,0.0
+C-024,conversion,lat,allam-2-7b,allam-2-7b,2026-10-21T18:30:50,0.0,الواي فاي تقيل بزاف ليوما، واقيلة خاصنا نبدلوا الراوتر. ,,test,الويفي تقيل بزاف اليوم، واقيلا خاصنا نروديماريو الروتور.,,الواي فاي تقيل بزاف ليوما، واقيلة خاصنا نبدلوا الراوتر.,0.0,0.278,1.0

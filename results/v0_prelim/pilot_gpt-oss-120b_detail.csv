@@ -1,0 +1,33 @@
+﻿id,tache,graphie,modele,model_id,date,temperature,reponse_brute,erreur,gold,gold_alt,pred,correct,cer
+Q-001,qcm,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:20,0.0,B,,B,,B,1.0,
+Q-001,qcm,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:23,0.0,B,,B,,B,1.0,
+Q-002,qcm,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:25,0.0,A,,A,,A,1.0,
+Q-002,qcm,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:28,0.0,A,,A,,A,1.0,
+Q-003,qcm,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:30,0.0,C,,C,,C,1.0,
+Q-003,qcm,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:32,0.0,C,,C,,C,1.0,
+Q-004,qcm,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:34,0.0,D,,D,,D,1.0,
+Q-004,qcm,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:37,0.0,D,,D,,D,1.0,
+Q-005,qcm,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:39,0.0,B,,B,,B,1.0,
+Q-005,qcm,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:41,0.0,B,,B,,B,1.0,
+N-001a,nli,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:43,0.0,implication,,implication,,implication,1.0,
+N-001a,nli,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:45,0.0,implication,,implication,,implication,1.0,
+N-001b,nli,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:47,0.0,contradiction,,contradiction,,contradiction,1.0,
+N-001b,nli,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:50,0.0,contradiction,,contradiction,,contradiction,1.0,
+N-001c,nli,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:52,0.0,neutre,,neutre,,neutre,1.0,
+N-001c,nli,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:54,0.0,neutre,,neutre,,neutre,1.0,
+N-002a,nli,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:56,0.0,implication,,implication,,implication,1.0,
+N-002a,nli,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:10:58,0.0,implication,,implication,,implication,1.0,
+N-002b,nli,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:11:00,0.0,contradiction,,contradiction,,contradiction,1.0,
+N-002b,nli,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:11:02,0.0,contradiction,,contradiction,,contradiction,1.0,
+N-002c,nli,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:11:04,0.0,neutre,,neutre,,neutre,1.0,
+N-002c,nli,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:11:07,0.0,neutre,,neutre,,neutre,1.0,
+C-001,conversion,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:11:09,0.0,3jbnI had lfilm bzaaf,,3jebni had lfilm bzaf.,3jbni had lfilm bzzaf.|3jebni had l film bzaf.,3jbnI had lfilm bzaaf,0.0,0.048
+C-001,conversion,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:11:11,0.0,عجبني هاد الفيلم بزاف.,,عجبني هاد الفيلم بزاف.,,عجبني هاد الفيلم بزاف.,1.0,0.0
+C-002,conversion,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:11:14,0.0,Fin ghadi tmshi f had l3otla?,,Fin ghadi tmchi fhad l3otla?,fin ghati tmchi fhad l3otla?|fen ghadi tmchi f had l3otla?,Fin ghadi tmshi f had l3otla?,0.0,0.071
+C-002,conversion,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:11:17,0.0,فين غادي تمشي فهاد العطلة؟,,فين غادي تمشي فهاد العطلة؟,,فين غادي تمشي فهاد العطلة؟,1.0,0.0
+C-003,conversion,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:11:19,0.0,lmakla dial had lrissto bnina w nqiya,,Lmakla dyal had rresto bnina w n9iya.,lmakla dial had resto bnina w nqiya.,lmakla dial had lrissto bnina w nqiya,0.0,0.086
+C-003,conversion,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:11:22,0.0,الماكلة ديال هاد الريسطو بنينة و نقية,,الماكلة ديال هاد الريسطو بنينة ونقية.,,الماكلة ديال هاد الريسطو بنينة و نقية,0.0,0.028
+C-004,conversion,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:11:25,0.0,ma krhtsh nshrb kas d atay mshhr,,Ma krehtch nchreb kas d atay mche77er.,makrehtch nchrob kas d atay mche7er.,ma krhtsh nshrb kas d atay mshhr,0.0,0.243
+C-004,conversion,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:11:28,0.0,ما كرهتش نشرب كاس د اتاي مشححر,,ما كرهتش نشرب كاس د أتاي مشحر.,,ما كرهتش نشرب كاس د اتاي مشححر,0.0,0.034
+C-005,conversion,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:11:31,0.0,"smah liya, wash kat3raf fin kayen lbank?",,"Sme7 lia, wach kat3ref fin kayen lbank?","sme7liya, wach kat3ref fin kayn lbank?","smah liya, wash kat3raf fin kayen lbank?",0.0,0.135
+C-005,conversion,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-21T17:11:33,0.0,سمح ليا، واش كتعرّف فين كاين لبنك؟,,سمح ليا، واش كتعرف فين كاين البنك؟,,سمح ليا، واش كتعرّف فين كاين لبنك؟,0.0,0.062
