@@ -1,0 +1,7 @@
+﻿id,groupe,graphie,split,premisse,hypothese,gold,theme,cs,relu,source
+N-001,P-001,ar,dev,سارة خدامة فالسبيطار كفرملية.,سارة كتخدم.,implication,travail,0,0,exemple
+N-002,P-001,ar,dev,سارة خدامة فالسبيطار كفرملية.,سارة ما عندها حتى خدمة.,contradiction,travail,0,0,exemple
+N-003,P-001,ar,dev,سارة خدامة فالسبيطار كفرملية.,سارة كتخلص مزيان.,neutre,travail,0,0,exemple
+N-001,P-001,lat,dev,Sara khdama f lsbitar k fermlia.,Sara katkhdem.,implication,travail,0,0,exemple
+N-002,P-001,lat,dev,Sara khdama f lsbitar k fermlia.,Sara ma 3ndha 7tta khedma.,contradiction,travail,0,0,exemple
+N-003,P-001,lat,dev,Sara khdama f lsbitar k fermlia.,Sara katkhelles mzyan.,neutre,travail,0,0,exemple

@@ -1,0 +1,3 @@
+﻿id,graphie,split,texte,question,choix_a,choix_b,choix_c,choix_d,gold,theme,type_question,cs,relu,source
+Q-001,ar,dev,"مشا أحمد للحانوت فالصباح, شرا خبز وحليب. ملي رجع لقا مو كتسناه باش يفطرو.",شنو شرا أحمد?,لحم وخضرة,خبز وحليب,أتاي وسكر,حوت وروز,B,vie_quotidienne,fait,0,0,exemple
+Q-001,lat,dev,"mcha A7med l l7anout f lsba7, chra khobz w 7lib. mlli rje3 l9a mmo katsnah bach yfetro.",chnou chra A7med?,l7em w khodra,khobz w 7lib,atay w sokkar,7out w rouz,B,vie_quotidienne,fait,0,0,exemple
