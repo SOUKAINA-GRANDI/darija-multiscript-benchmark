@@ -1,157 +1,157 @@
-﻿id,tache,graphie,modele,model_id,date,temperature,max_tokens,prompt_hash,erreur,finish_reason,split,gold,gold_alt,pred,correct,cer,cer_no_space,script_ok
-Q-001,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:11:48,0.0,80,c5295c05,,stop,dev,B,,B,1.0,,,
-Q-001,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:11:51,0.0,80,de032fe9,,stop,dev,B,,B,1.0,,,
-Q-002,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:11:52,0.0,80,4cabf889,,stop,dev,A,,A,1.0,,,
-Q-002,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:11:55,0.0,80,52ffd8c8,,stop,dev,A,,A,1.0,,,
-Q-003,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:11:58,0.0,80,a8f50ee9,,stop,dev,C,,C,1.0,,,
-Q-003,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:12:00,0.0,80,76584001,,stop,dev,C,,C,1.0,,,
-Q-004,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:12:02,0.0,80,7c2611cb,,stop,dev,D,,D,1.0,,,
-Q-004,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:12:03,0.0,80,3acb4a09,,stop,dev,D,,D,1.0,,,
-Q-005,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:12:07,0.0,80,4335f67e,,stop,dev,B,,B,1.0,,,
-Q-005,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:12:09,0.0,80,308502c7,,stop,dev,B,,B,1.0,,,
-Q-006,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:12:16,0.0,80,5e21e56c,,stop,dev,B,,B,1.0,,,
-Q-006,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:12:18,0.0,80,d0af0379,,stop,dev,B,,B,1.0,,,
-Q-007,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:12:22,0.0,80,3accaefb,,stop,dev,C,,C,1.0,,,
-Q-007,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:12:24,0.0,80,e3c965f6,,stop,dev,C,,C,1.0,,,
-Q-008,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:12:27,0.0,80,e9c14d01,,stop,dev,D,,D,1.0,,,
-Q-008,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:12:29,0.0,80,dc319145,,stop,dev,D,,D,1.0,,,
-Q-009,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:12:31,0.0,80,e2ff047e,,stop,dev,A,,A,1.0,,,
-Q-009,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:12:35,0.0,80,996baf26,,stop,dev,A,,A,1.0,,,
-Q-010,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:12:37,0.0,80,29342987,,stop,dev,B,,B,1.0,,,
-Q-010,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:12:42,0.0,80,cdbb3f50,,stop,dev,B,,B,1.0,,,
-N-001a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:12:44,0.0,80,73f180c3,,stop,dev,implication,,implication,1.0,,,
-N-001a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:12:46,0.0,80,c2060c1b,,stop,dev,implication,,implication,1.0,,,
-N-001b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:13:08,0.0,80,816fab32,,stop,dev,contradiction,,contradiction,1.0,,,
-N-001b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:13:10,0.0,80,d796dbae,,stop,dev,contradiction,,contradiction,1.0,,,
-N-001c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:13:12,0.0,80,fac5a4a6,,stop,dev,neutre,,neutre,1.0,,,
-N-001c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:13:14,0.0,80,d29d41ba,,stop,dev,neutre,,neutre,1.0,,,
-N-002a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:13:17,0.0,80,6e734fa1,,stop,dev,implication,,implication,1.0,,,
-N-002a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:13:18,0.0,80,2713b904,,stop,dev,implication,,implication,1.0,,,
-N-002b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:15:12,0.0,80,cf78dfdb,,stop,dev,contradiction,,contradiction,1.0,,,
-N-002b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:15:16,0.0,80,45a83112,,stop,dev,contradiction,,contradiction,1.0,,,
-N-002c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:15:18,0.0,80,1d8ee891,,stop,dev,neutre,,neutre,1.0,,,
-N-002c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:15:20,0.0,80,90d1b22a,,stop,dev,neutre,,neutre,1.0,,,
-N-003a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:15:22,0.0,80,54610ddb,,stop,dev,implication,,neutre,0.0,,,
-N-003a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:15:24,0.0,80,0232bd9c,,stop,dev,implication,,contradiction,0.0,,,
-N-003b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:15:27,0.0,80,d49ebf7a,,stop,dev,contradiction,,neutre,0.0,,,
-N-003b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:15:29,0.0,80,8272d6d5,,stop,dev,contradiction,,neutre,0.0,,,
-N-003c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:15:32,0.0,80,609e5f29,,stop,dev,neutre,,neutre,1.0,,,
-N-003c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:15:34,0.0,80,da6c08d3,,stop,dev,neutre,,neutre,1.0,,,
-N-004a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:17:13,0.0,80,b9c68e7a,,stop,dev,implication,,implication,1.0,,,
-N-004a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:17:21,0.0,80,e8e886a3,,stop,dev,implication,,neutre,0.0,,,
-N-004b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:17:23,0.0,80,03385b19,,stop,dev,contradiction,,contradiction,1.0,,,
-N-004b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:17:25,0.0,80,ed8efc24,,stop,dev,contradiction,,neutre,0.0,,,
-N-004c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:18:08,0.0,80,cd04b3a7,,stop,dev,neutre,,neutre,1.0,,,
-N-004c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:22:37,0.0,80,8bef4ae1,,stop,dev,neutre,,neutre,1.0,,,
-C-001,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:23:18,0.0,80,bbbf4c65,,stop,dev,3jebni had lfilm bzaf.,3jbni had lfilm bzzaf.|3jebni had l film bzaf.,3jbni had lfilm bzaf.,0.0,0.048,0.056,1.0
-C-001,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:23:20,0.0,80,413c5885,,stop,dev,عجبني هاد الفيلم بزاف.,,عجبني هاد الفيلم بزاف.,1.0,0.0,0.0,1.0
-C-002,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:23:22,0.0,80,121e5c4d,,stop,dev,Fin ghadi tmchi fhad l3otla?,fin ghati tmchi fhad l3otla?|fen ghadi tmchi f had l3otla?,fin ghadi tmsi f had l3tla?,0.0,0.143,0.13,1.0
-C-002,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:23:33,0.0,80,1dd6479b,,stop,dev,فين غادي تمشي فهاد العطلة?,,فين غادي تمشي فهاد اللعطة؟,0.0,0.08,0.095,1.0
-C-003,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:23:35,0.0,80,0f8fa90c,,stop,dev,Lmakla dyal had rresto bnina w n9iya.,lmakla dial had resto bnina w nqiya.,lmakla dyal had ristaw bnina w nqiya.,0.0,0.114,0.138,1.0
-C-003,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:23:37,0.0,80,d6aeacf6,,stop,dev,الماكلة ديال هاد الريسطو بنينة ونقية.,,الماكلة ديال هاد رستو بنينة ونقية.,0.0,0.111,0.129,1.0
-C-004,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:23:39,0.0,80,8df9e181,,stop,dev,Ma krehtch nchreb kas d atay mche77er.,makrehtch nchrob kas d atay mche7er.,ma karechta nchrob kas d atay meshhar.,0.0,0.286,0.3,1.0
-C-004,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:24:00,0.0,80,34053ccf,,stop,dev,ما كرهتش نشرب كاس د أتاي مشحر.,,ما كرهتش نشرب كاس د أتاي مشعحر.,0.0,0.034,0.043,1.0
-C-005,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:24:09,0.0,80,4a6b5e7a,,stop,dev,"Sme7 lia, wach kat3ref fin kayen lbank?","sme7liya, wach kat3ref fin kayn lbank?","sm7 lia, wach kteref fin kayn el bank?",0.0,0.162,0.161,1.0
-C-005,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:24:16,0.0,80,cb09b154,,stop,dev,"سمح ليا, واش كتعرف فين كاين البنك?",,سمعت لي، واش كتعرف فين كاين البنك؟,0.0,0.094,0.115,1.0
-C-006,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:24:33,0.0,80,528d6bcb,,stop,dev,bghit nmchi lssou9 bekri.,bghit nmchi l sou9 bekri.|bghit nmchi lsou9 bkri.,Bghit nmsi llsouq bker.,0.0,0.273,0.316,1.0
-C-006,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:24:40,0.0,80,ec4c2ebc,,stop,dev,بغيت نمشي للسوق بكري.,,بغيت نمشي للصبح بكري.,0.0,0.15,0.176,1.0
-C-007,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:25:54,0.0,80,e466cc7c,,stop,dev,Ch7al kaydir had lkilo dyal tteffa7?,chhal kaydir had lkilo dial teffah?|ch7al kidir had lkilo d tfa7?,Shhal kidir had kilo dial tftah?,0.0,0.176,0.207,1.0
-C-007,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:25:56,0.0,80,b7bcda34,,stop,dev,شحال كيدير هاد الكيلو ديال التفاح?,,شحال كدير هاد الكيلو ديال التفاح؟,0.0,0.03,0.036,1.0
-C-008,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:25:57,0.0,80,38d6d86b,,stop,dev,Bghit nsowlek 3la tw9it dyal lkhedma ghedda.,bghit nsowlk 3la lwa9t dl khedma ghdda.|bghit nsewlek 3la taw9it dial lkhdma ghda.,bghit nsoulik 3la tawqit dial lkhedma ghedda.,0.0,0.116,0.135,1.0
-C-008,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:26:09,0.0,80,df094f73,,stop,dev,بغيت نسولك على التوقيت ديال الخدمة غدا.,,بغيت نسولك على توقيط ديال الخدمة غدا.,0.0,0.079,0.094,1.0
-C-009,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:26:11,0.0,80,8f6ce023,,stop,dev,"Tbarkellah 3lik, rak khedmeti mzyan fhad lmachrou3.","tbarkellah 3lik, rak khdemti mezyan f had lmachro3.","tbarek Allah 3lik, rak khidmati mzyan f had lprojet.",0.0,0.265,0.256,1.0
-C-009,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:26:16,0.0,80,675a2027,,stop,dev,"تبارك الله عليك, راك خدمتي مزيان فهاد المشروع.",,تبارك الله عليك، راك خدّمتي مزيان فهاد المشروع.,1.0,0.0,0.0,1.0
-C-010,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:26:34,0.0,80,eb22fe98,,stop,dev,Kantmenna lik ttawfi9 w nnaja7 f lmtihan dyalek.,kantmna lik tawfiq w najah f limti7an dialk.|kantmenna lik tawfi9 w naja7.,kontemna lik el toufik w enajah fel imtihan dyalek.,0.0,0.298,0.3,1.0
-C-010,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:28:46,0.0,80,e6332bd9,,stop,dev,كنتمنى ليك التوفيق والنجاح فالامتحان ديالك.,,كانتمنا ليك التوفيق والنجاح في الامتحان ديالك.,0.0,0.095,0.081,1.0
-Q-011,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:28:49,0.0,80,61e04773,,stop,test,C,,C,1.0,,,
-Q-011,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:28:53,0.0,80,69e5a29b,,stop,test,C,,C,1.0,,,
-Q-012,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:28:59,0.0,80,88b58b6f,,stop,test,A,,A,1.0,,,
-Q-012,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:29:12,0.0,80,607df5e0,,stop,test,A,,A,1.0,,,
-Q-013,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:29:17,0.0,80,b7683f45,,stop,test,D,,D,1.0,,,
-Q-013,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:29:19,0.0,80,33cccc5a,,stop,test,D,,D,1.0,,,
-Q-014,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:29:21,0.0,80,55c39d6b,,stop,test,B,,B,1.0,,,
-Q-014,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:29:24,0.0,80,beaebe9d,,stop,test,B,,B,1.0,,,
-Q-015,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:29:30,0.0,80,1976886d,,stop,test,A,,A,1.0,,,
-Q-015,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:29:33,0.0,80,2028cc5d,,stop,test,A,,A,1.0,,,
-Q-016,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:29:39,0.0,80,ad1820c4,,stop,test,C,,C,1.0,,,
-Q-016,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:29:41,0.0,80,526ecc2e,,stop,test,C,,C,1.0,,,
-N-005a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:29:43,0.0,80,fb15c23e,,stop,test,implication,,implication,1.0,,,
-N-005a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:29:46,0.0,80,68b6bd30,,stop,test,implication,,implication,1.0,,,
-N-005b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:29:47,0.0,80,372cdc19,,stop,test,contradiction,,contradiction,1.0,,,
-N-005b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:29:49,0.0,80,b55f6554,,stop,test,contradiction,,neutre,0.0,,,
-N-005c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:29:52,0.0,80,c8c30b97,,stop,test,neutre,,neutre,1.0,,,
-N-005c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:29:54,0.0,80,4713b787,,stop,test,neutre,,neutre,1.0,,,
-N-006a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:30:39,0.0,80,e735035b,,stop,test,implication,,implication,1.0,,,
-N-006a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:30:42,0.0,80,b703110e,,stop,test,implication,,implication,1.0,,,
-N-006b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:30:44,0.0,80,bbb3210f,,stop,test,contradiction,,contradiction,1.0,,,
-N-006b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:30:46,0.0,80,f7a223fb,,stop,test,contradiction,,contradiction,1.0,,,
-N-006c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:30:49,0.0,80,34989d32,,stop,test,neutre,,neutre,1.0,,,
-N-006c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:30:55,0.0,80,c06bb791,,stop,test,neutre,,neutre,1.0,,,
-C-011,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:30:58,0.0,80,69ed77ba,,stop,test,"Fin wselti, rani kantsnak 7da lma7atta.","fin wsliti, rani kantsenak 7da lmahata.|fen wselti rani kantsnak.","fin wsalti, rani kantsnak hada l mohatta.",0.0,0.162,0.156,1.0
-C-011,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:01,0.0,80,1570f22f,,stop,test,"فين وصلتي, راني كنتسناك حدا المحطة.",,فين وصلت، راني كنتسناك هدا لماتة.,0.0,0.152,0.179,1.0
-C-012,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:04,0.0,80,d96cfa83,,stop,test,Khassek tchreb ddwa f we9to w ttebbe3 rrijim.,khasek tchrob dwa f weqto w tebe3 rijim.|khask tchreb ddwa.,khasek tchreb d-douwa f waqto w tbe3 r-rijim.,0.0,0.179,0.216,1.0
-C-012,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:06,0.0,80,a384dd0a,,stop,test,خاصك تشرب الدوا فوقتو وتبع الريجيم.,,خاسك تشرب دوا في وقتو وتبعا الرجيم.,0.0,0.206,0.207,1.0
-C-013,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:09,0.0,80,b0c07d9e,,stop,test,Seyfet lia l'email bach nchouf ddossier lyoma.,sift liya l email bach nchof dossier lyom.|sayfet lia l'email.,sift lia l'email bash nchouf l'dossier lyoum.,0.0,0.146,0.147,1.0
-C-013,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:20,0.0,80,4be8e538,,stop,test,صيفط ليا الإيميل باش نشوف الدوسي اليوم.,,سيفت لي الماييل باش نشوف الدوسيه ليوما.,0.0,0.211,0.219,1.0
-C-014,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:22,0.0,80,0e2ef2e2,,stop,test,3afak ch7al l7ssab kamel?,3afak chhal lhesab kamel?|3afak ch7al le7ssab kamel?,3fak sh7al l7sab kamel?,0.0,0.125,0.143,1.0
-C-014,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:24,0.0,80,eb0d7906,,stop,test,عفاك شحال الحساب كامل?,,عفاك شحال ل حساب كامل؟,0.0,0.095,0.056,1.0
-Q-017,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:26,0.0,80,e028ee9b,,stop,test,C,,C,1.0,,,
-Q-017,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:28,0.0,80,0c29ed2d,,stop,test,C,,C,1.0,,,
-Q-018,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:30,0.0,80,bc9412d0,,stop,test,D,,D,1.0,,,
-Q-018,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:32,0.0,80,49665711,,stop,test,D,,D,1.0,,,
-Q-019,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:34,0.0,80,81948b52,,stop,test,A,,A,1.0,,,
-Q-019,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:35,0.0,80,23a62cbb,,stop,test,A,,A,1.0,,,
-Q-020,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:38,0.0,80,4001d014,,stop,test,B,,B,1.0,,,
-Q-020,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:39,0.0,80,2e2f15b6,,stop,test,B,,B,1.0,,,
-N-007a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:42,0.0,80,c1e54d1f,,stop,test,implication,,implication,1.0,,,
-N-007a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:45,0.0,80,c708219b,,stop,test,implication,,implication,1.0,,,
-N-007b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:47,0.0,80,f9abed0b,,stop,test,contradiction,,contradiction,1.0,,,
-N-007b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:49,0.0,80,a96fb802,,stop,test,contradiction,,contradiction,1.0,,,
-N-007c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:51,0.0,80,924af696,,stop,test,neutre,,neutre,1.0,,,
-N-007c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:52,0.0,80,668b2652,,stop,test,neutre,,neutre,1.0,,,
-N-008a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:54,0.0,80,46056591,,stop,test,implication,,implication,1.0,,,
-N-008a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:57,0.0,80,479519aa,,stop,test,implication,,contradiction,0.0,,,
-N-008b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:31:59,0.0,80,ed491ade,,stop,test,contradiction,,contradiction,1.0,,,
-N-008b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:03,0.0,80,d0075701,,stop,test,contradiction,,contradiction,1.0,,,
-N-008c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:06,0.0,80,ed1b864a,,stop,test,neutre,,neutre,1.0,,,
-N-008c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:08,0.0,80,e1d6781d,,stop,test,neutre,,neutre,1.0,,,
-C-015,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:10,0.0,80,2f6787eb,,stop,test,Llah ya3tik sse77a 3la had lmajhoub.,llah y3tik saha 3la had lmejhoud.|lah ya3tik se7a.,Allah y3tik lsiha 3la had lmajhoud.,0.0,0.125,0.148,1.0
-C-015,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:12,0.0,80,e4be3d69,,stop,test,الله يعطيك الصحة على هاد المجهود.,,الله يعطيك الصحة على هاد المجبوب.,0.0,0.062,0.074,1.0
-C-016,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:14,0.0,80,128bf3cb,,stop,test,Kayen wa7ed sshed s3ib lyoma f zzen9a.,kayn wahd shed s3ib lyom f zanqa.|kayn wahed sehd s3ib.,Kain wahd ssahd sa3ib lyawm falzenqa.,0.0,0.312,0.385,1.0
-C-016,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:16,0.0,80,b6966aa6,,stop,test,كاين واحد الصهد صعيب اليوم فالزنقة.,,كاين واحد الشد الصايب ليوم ف الزنقة.,0.0,0.206,0.207,1.0
-C-017,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:18,0.0,80,5fe3e4a5,,stop,test,Sellem lia 3la lwalid w ddar kamlin.,slem liya 3la lwalid w dar kamlin.|sellem 3la lwalid.,Slm lia 3la walid w dar kamlin.,0.0,0.091,0.111,1.0
-C-017,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:20,0.0,80,2bbde62a,,stop,test,سلم ليا على الوالد والدار كاملين.,,سلام لي على الوليد والدّار كاملين.,0.0,0.125,0.148,1.0
-C-018,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:22,0.0,80,8cd15c6d,,stop,test,Wach 3ndek ssarf dyal miyatayn derham?,wach 3ndk sarf dial 200 derham?|wach 3ndek ssarf d mitin drhm?,Wach 3ndek es-sarf dyal meytin dirham?,0.0,0.162,0.188,1.0
-C-018,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:25,0.0,80,4fe46c22,,stop,test,واش عندك الصرف ديال ميتين درهم?,,واش عندك الصرف ديال مياتين درهم؟,0.0,0.033,0.04,1.0
-Q-021,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:26,0.0,80,2fccf5a4,,stop,test,D,,D,1.0,,,
-Q-021,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:29,0.0,80,77ca4e2f,,stop,test,D,,D,1.0,,,
-Q-022,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:31,0.0,80,48cbfe5f,,stop,test,A,,A,1.0,,,
-Q-022,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:33,0.0,80,afe1921e,,stop,test,A,,A,1.0,,,
-Q-023,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:39,0.0,80,91988fa6,,stop,test,C,,C,1.0,,,
-Q-023,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:42,0.0,80,7ad9149b,,stop,test,C,,C,1.0,,,
-Q-024,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:44,0.0,80,a826bac5,,stop,test,D,,D,1.0,,,
-Q-024,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:46,0.0,80,2c7150b2,,stop,test,D,,D,1.0,,,
-N-011a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:48,0.0,80,1c7de84e,,stop,test,implication,,neutre,0.0,,,
-N-011a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:50,0.0,80,620a0c5e,,stop,test,implication,,implication,1.0,,,
-N-011b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:52,0.0,80,ad3541cc,,stop,test,contradiction,,contradiction,1.0,,,
-N-011b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:53,0.0,80,7dd2d417,,stop,test,contradiction,,implication,0.0,,,
-N-011c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:55,0.0,80,b90f3352,,stop,test,neutre,,neutre,1.0,,,
-N-011c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:57,0.0,80,7d4a1d11,,stop,test,neutre,,neutre,1.0,,,
-N-012a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:32:59,0.0,80,dbf9c336,,stop,test,implication,,neutre,0.0,,,
-N-012a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:33:01,0.0,80,f1ffee32,,stop,test,implication,,neutre,0.0,,,
-N-012b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:33:03,0.0,80,3ebe5407,,stop,test,contradiction,,contradiction,1.0,,,
-N-012b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:33:06,0.0,80,d5e42ee1,,stop,test,contradiction,,contradiction,1.0,,,
-N-012c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:33:09,0.0,80,307154e3,,stop,test,neutre,,neutre,1.0,,,
-N-012c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:33:11,0.0,80,0095fff4,,stop,test,neutre,,neutre,1.0,,,
-C-019,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:33:13,0.0,80,ba11528b,,stop,test,"Ma b9ach fiya l7al, lmouhim hiya sse77a w ssalama.","mab9ach fia lhal, lmohim hya seha w salama.|ma b9ach fiya lhal.","ma bqa ch fya lhal, lmuhim hiya lsahha w lsalama.",0.0,0.208,0.225,1.0
-C-019,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:33:15,0.0,80,7c7728f5,,stop,test,"ما بقاش فيا الحال, المهم هي الصحة والسلامة.",,ما بقاش فيا الحل، المهم هي الصحة والسلامة.,0.0,0.024,0.029,1.0
-C-020,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:33:26,0.0,80,decba1e3,,stop,test,Wach had ttobis kaydouz 3la Jame3 lfna?,wach had tobis kidouz 3la jama3 lfna?|wach had ttobis kaydoz 3la jame3 lfna?,wach had ltopbus kidouz 3la jama3 fna?,0.0,0.111,0.133,1.0
-C-020,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:33:27,0.0,80,5b4fd0fc,,stop,test,واش هاد الطوبيس كيدوز على جامع الفنا?,,واش هاد التوبيس كيدوز على جامع الفنا؟,0.0,0.028,0.033,1.0
-C-021,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:33:29,0.0,80,64fa080c,,stop,test,Lkhedma kayna walakin khas bnadem yssber w yzeyyer rassou.,lkhdma kayna walakin khass bnadem ysber.|lkhedma kayna walakin khas bnadm ysber.,lkhedma kayna walakin khas b nadem ysaber we yezir rasso.,0.0,0.14,0.143,1.0
-C-021,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:33:31,0.0,80,9724f007,,stop,test,الخدمة كاينة ولكن خاص بنادم يصبر ويزير راسو.,,الخدمة كاينة ولكن خاص بنادم يسبر ويزير راسو.,0.0,0.023,0.028,1.0
-C-022,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:33:34,0.0,80,56783394,,stop,test,N9es lia chwiya f ttaman rani klyan 9dim 3ndek.,n9es liya chwia f taman rani cliyan qdim 3ndk.|n9es lia chwiya f taman.,n99s lia chwiya f lthmen rani kliane qadim 3endek.,0.0,0.196,0.237,1.0
-C-022,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:33:36,0.0,80,17de9661,,stop,test,نقص ليا شوية فالثمن راني كليان قديم عندك.,,ن9س ليا شوية ف التمان راني كليان 9ديم عندك.,0.0,0.15,0.152,1.0
-C-023,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:33:42,0.0,80,76750fd9,,stop,test,Sedd ccherjem rah kaydkhol lberd bzaf l bit nna3s.,sedd cherjam rah kaydkhol lberd bzaf.|sed cherjem rah kidkhol lberd.,sd chrgm rah kidkhel lbrd bzaf lbyt l3nas.,0.0,0.306,0.341,1.0
-C-023,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:33:45,0.0,80,dac78c5a,,stop,test,سد الشرجم راه كيدخل البرد بزاف لبيت النعاس.,,سد الشرم راح كيدخل للبرد بزاف للبيت الناس.,0.0,0.119,0.143,1.0
-C-024,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:33:46,0.0,80,ce5307ee,,stop,test,"Lwifi t9il bzaf lyoma, wa9ila khasna nredemariw lrouteur.","lwifi tqil bzaf lyom, waqila khassna nredemariw routeur.|l wifi t9il bzaf lyoma.","l'wifi tqil bzaf lyoum, waqila khasna nrodimo l'rotor.",0.0,0.222,0.234,1.0
-C-024,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-24T21:33:48,0.0,80,b06b20ba,,stop,test,"الويفي تقيل بزاف اليوم, واقيلا خاصنا نروديماريو الروتور.",,الواي فاي تقيل بزاف ليوما، وقيلا خاصنا نردماريو الراوتر.,0.0,0.185,0.191,1.0
+﻿id,tache,graphie,modele,model_id,date,temperature,max_tokens,prompt_hash,reponse_brute,erreur,finish_reason,split,gold,gold_alt,pred,correct,cer,cer_sans_espace,script_ok
+Q-001,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:17,0.0,1024,c5295c05,B,,stop,dev,B,,B,1.0,,,
+Q-001,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:19,0.0,1024,de032fe9,B,,stop,dev,B,,B,1.0,,,
+Q-002,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:21,0.0,1024,4cabf889,A,,stop,dev,A,,A,1.0,,,
+Q-002,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:23,0.0,1024,52ffd8c8,A,,stop,dev,A,,A,1.0,,,
+Q-003,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:27,0.0,1024,a8f50ee9,C,,stop,dev,C,,C,1.0,,,
+Q-003,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:29,0.0,1024,76584001,C,,stop,dev,C,,C,1.0,,,
+Q-004,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:31,0.0,1024,7c2611cb,D,,stop,dev,D,,D,1.0,,,
+Q-004,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:33,0.0,1024,3acb4a09,D,,stop,dev,D,,D,1.0,,,
+Q-005,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:35,0.0,1024,4335f67e,B,,stop,dev,B,,B,1.0,,,
+Q-005,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:37,0.0,1024,308502c7,B,,stop,dev,B,,B,1.0,,,
+Q-006,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:39,0.0,1024,5e21e56c,B,,stop,dev,B,,B,1.0,,,
+Q-006,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:41,0.0,1024,d0af0379,B,,stop,dev,B,,B,1.0,,,
+Q-007,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:43,0.0,1024,3accaefb,C,,stop,dev,C,,C,1.0,,,
+Q-007,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:45,0.0,1024,e3c965f6,C,,stop,dev,C,,C,1.0,,,
+Q-008,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:47,0.0,1024,e9c14d01,D,,stop,dev,D,,D,1.0,,,
+Q-008,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:49,0.0,1024,dc319145,D,,stop,dev,D,,D,1.0,,,
+Q-009,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:50,0.0,1024,e2ff047e,A,,stop,dev,A,,A,1.0,,,
+Q-009,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:53,0.0,1024,996baf26,A,,stop,dev,A,,A,1.0,,,
+Q-010,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:54,0.0,1024,29342987,B,,stop,dev,B,,B,1.0,,,
+Q-010,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:57,0.0,1024,cdbb3f50,B,,stop,dev,B,,B,1.0,,,
+N-001a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:16:58,0.0,1024,73f180c3,implication,,stop,dev,implication,,implication,1.0,,,
+N-001a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:01,0.0,1024,c2060c1b,implication,,stop,dev,implication,,implication,1.0,,,
+N-001b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:03,0.0,1024,816fab32,contradiction,,stop,dev,contradiction,,contradiction,1.0,,,
+N-001b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:05,0.0,1024,d796dbae,contradiction,,stop,dev,contradiction,,contradiction,1.0,,,
+N-001c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:07,0.0,1024,fac5a4a6,neutre,,stop,dev,neutre,,neutre,1.0,,,
+N-001c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:09,0.0,1024,d29d41ba,neutre,,stop,dev,neutre,,neutre,1.0,,,
+N-002a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:11,0.0,1024,6e734fa1,implication,,stop,dev,implication,,implication,1.0,,,
+N-002a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:12,0.0,1024,2713b904,implication,,stop,dev,implication,,implication,1.0,,,
+N-002b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:15,0.0,1024,cf78dfdb,contradiction,,stop,dev,contradiction,,contradiction,1.0,,,
+N-002b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:17,0.0,1024,45a83112,contradiction,,stop,dev,contradiction,,contradiction,1.0,,,
+N-002c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:18,0.0,1024,1d8ee891,neutre,,stop,dev,neutre,,neutre,1.0,,,
+N-002c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:21,0.0,1024,90d1b22a,neutre,,stop,dev,neutre,,neutre,1.0,,,
+N-003a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:22,0.0,1024,54610ddb,neutre,,stop,dev,implication,,neutre,0.0,,,
+N-003a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:24,0.0,1024,0232bd9c,contradiction,,stop,dev,implication,,contradiction,0.0,,,
+N-003b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:26,0.0,1024,d49ebf7a,neutre,,stop,dev,contradiction,,neutre,0.0,,,
+N-003b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:28,0.0,1024,8272d6d5,neutre,,stop,dev,contradiction,,neutre,0.0,,,
+N-003c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:30,0.0,1024,609e5f29,neutre,,stop,dev,neutre,,neutre,1.0,,,
+N-003c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:32,0.0,1024,da6c08d3,neutre,,stop,dev,neutre,,neutre,1.0,,,
+N-004a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:33,0.0,1024,b9c68e7a,implication,,stop,dev,implication,,implication,1.0,,,
+N-004a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:35,0.0,1024,e8e886a3,neutre,,stop,dev,implication,,neutre,0.0,,,
+N-004b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:37,0.0,1024,03385b19,contradiction,,stop,dev,contradiction,,contradiction,1.0,,,
+N-004b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:38,0.0,1024,ed8efc24,neutre,,stop,dev,contradiction,,neutre,0.0,,,
+N-004c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:40,0.0,1024,cd04b3a7,neutre,,stop,dev,neutre,,neutre,1.0,,,
+N-004c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:42,0.0,1024,8bef4ae1,neutre,,stop,dev,neutre,,neutre,1.0,,,
+C-001,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:44,0.0,1024,bbbf4c65,3jbni had lfilm bzaf.,,stop,dev,3jebni had lfilm bzaf.,3jbni had lfilm bzzaf.|3jebni had l film bzaf.,3jbni had lfilm bzaf.,0.0,0.048,0.056,1.0
+C-001,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:46,0.0,1024,413c5885,عجبني هاد الفيلم بزاف.,,stop,dev,عجبني هاد الفيلم بزاف.,,عجبني هاد الفيلم بزاف.,1.0,0.0,0.0,1.0
+C-002,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:48,0.0,1024,121e5c4d,fin ghadi tmsi f had l3tla?,,stop,dev,Fin ghadi tmchi fhad l3otla?,fin ghati tmchi fhad l3otla?|fen ghadi tmchi f had l3otla?,fin ghadi tmsi f had l3tla?,0.0,0.143,0.13,1.0
+C-002,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:55,0.0,1024,1dd6479b,فين غادي تمشي فهاد اللعطة؟,,stop,dev,فين غادي تمشي فهاد العطلة?,,فين غادي تمشي فهاد اللعطة؟,0.0,0.08,0.095,1.0
+C-003,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:57,0.0,1024,0f8fa90c,lmakla dyal had ristaw bnina w nqiya.,,stop,dev,Lmakla dyal had rresto bnina w n9iya.,lmakla dial had resto bnina w nqiya.,lmakla dyal had ristaw bnina w nqiya.,0.0,0.114,0.138,1.0
+C-003,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:17:59,0.0,1024,d6aeacf6,الماكلة ديال هاد رستو بنينة ونقية.,,stop,dev,الماكلة ديال هاد الريسطو بنينة ونقية.,,الماكلة ديال هاد رستو بنينة ونقية.,0.0,0.111,0.129,1.0
+C-004,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:01,0.0,1024,8df9e181,ma karechta nchrob kas d atay meshhar.,,stop,dev,Ma krehtch nchreb kas d atay mche77er.,makrehtch nchrob kas d atay mche7er.,ma karechta nchrob kas d atay meshhar.,0.0,0.286,0.3,1.0
+C-004,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:03,0.0,1024,34053ccf,ما كرهتش نشرب كاس د أتاي مشعحر.,,stop,dev,ما كرهتش نشرب كاس د أتاي مشحر.,,ما كرهتش نشرب كاس د أتاي مشعحر.,0.0,0.034,0.043,1.0
+C-005,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:05,0.0,1024,4a6b5e7a,"sm7 lia, wach kteref fin kayn el bank?",,stop,dev,"Sme7 lia, wach kat3ref fin kayen lbank?","sme7liya, wach kat3ref fin kayn lbank?","sm7 lia, wach kteref fin kayn el bank?",0.0,0.162,0.161,1.0
+C-005,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:06,0.0,1024,cb09b154,سمعت لي، واش كتعرف فين كاين البنك؟,,stop,dev,"سمح ليا, واش كتعرف فين كاين البنك?",,سمعت لي، واش كتعرف فين كاين البنك؟,0.0,0.094,0.115,1.0
+C-006,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:08,0.0,1024,528d6bcb,Bghit nmsi llsouq bker.,,stop,dev,bghit nmchi lssou9 bekri.,bghit nmchi l sou9 bekri.|bghit nmchi lsou9 bkri.,Bghit nmsi llsouq bker.,0.0,0.273,0.316,1.0
+C-006,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:11,0.0,1024,ec4c2ebc,بغيت نمشي للصبح بكري.,,stop,dev,بغيت نمشي للسوق بكري.,,بغيت نمشي للصبح بكري.,0.0,0.15,0.176,1.0
+C-007,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:12,0.0,1024,e466cc7c,Shhal kidir had kilo dial tftah?,,stop,dev,Ch7al kaydir had lkilo dyal tteffa7?,chhal kaydir had lkilo dial teffah?|ch7al kidir had lkilo d tfa7?,Shhal kidir had kilo dial tftah?,0.0,0.176,0.207,1.0
+C-007,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:14,0.0,1024,b7bcda34,شحال كدير هاد الكيلو ديال التفاح؟,,stop,dev,شحال كيدير هاد الكيلو ديال التفاح?,,شحال كدير هاد الكيلو ديال التفاح؟,0.0,0.03,0.036,1.0
+C-008,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:19,0.0,1024,38d6d86b,bghit nsoulik 3la tawqit dial lkhedma ghedda.,,stop,dev,Bghit nsowlek 3la tw9it dyal lkhedma ghedda.,bghit nsowlk 3la lwa9t dl khedma ghdda.|bghit nsewlek 3la taw9it dial lkhdma ghda.,bghit nsoulik 3la tawqit dial lkhedma ghedda.,0.0,0.116,0.135,1.0
+C-008,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:29,0.0,1024,df094f73,بغيت نسولك على توقيط ديال الخدمة غدا.,,stop,dev,بغيت نسولك على التوقيت ديال الخدمة غدا.,,بغيت نسولك على توقيط ديال الخدمة غدا.,0.0,0.079,0.094,1.0
+C-009,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:32,0.0,1024,8f6ce023,"tbarek Allah 3lik, rak khidmati mzyan f had lprojet.",,stop,dev,"Tbarkellah 3lik, rak khedmeti mzyan fhad lmachrou3.","tbarkellah 3lik, rak khdemti mezyan f had lmachro3.","tbarek Allah 3lik, rak khidmati mzyan f had lprojet.",0.0,0.265,0.256,1.0
+C-009,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:34,0.0,1024,675a2027,تبارك الله عليك، راك خدّمتي مزيان فهاد المشروع.,,stop,dev,"تبارك الله عليك, راك خدمتي مزيان فهاد المشروع.",,تبارك الله عليك، راك خدّمتي مزيان فهاد المشروع.,1.0,0.0,0.0,1.0
+C-010,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:36,0.0,1024,eb22fe98,kontemna lik el toufik w enajah fel imtihan dyalek.,,stop,dev,Kantmenna lik ttawfi9 w nnaja7 f lmtihan dyalek.,kantmna lik tawfiq w najah f limti7an dialk.|kantmenna lik tawfi9 w naja7.,kontemna lik el toufik w enajah fel imtihan dyalek.,0.0,0.298,0.3,1.0
+C-010,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:38,0.0,1024,e6332bd9,كانتمنا ليك التوفيق والنجاح في الامتحان ديالك.,,stop,dev,كنتمنى ليك التوفيق والنجاح فالامتحان ديالك.,,كانتمنا ليك التوفيق والنجاح في الامتحان ديالك.,0.0,0.095,0.081,1.0
+Q-011,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:40,0.0,1024,61e04773,C,,stop,test,C,,C,1.0,,,
+Q-011,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:42,0.0,1024,69e5a29b,C,,stop,test,C,,C,1.0,,,
+Q-012,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:44,0.0,1024,88b58b6f,A,,stop,test,A,,A,1.0,,,
+Q-012,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:45,0.0,1024,607df5e0,A,,stop,test,A,,A,1.0,,,
+Q-013,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:47,0.0,1024,b7683f45,D,,stop,test,D,,D,1.0,,,
+Q-013,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:50,0.0,1024,33cccc5a,D,,stop,test,D,,D,1.0,,,
+Q-014,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:52,0.0,1024,55c39d6b,B,,stop,test,B,,B,1.0,,,
+Q-014,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:56,0.0,1024,beaebe9d,B,,stop,test,B,,B,1.0,,,
+Q-015,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:18:58,0.0,1024,1976886d,A,,stop,test,A,,A,1.0,,,
+Q-015,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:00,0.0,1024,2028cc5d,A,,stop,test,A,,A,1.0,,,
+Q-016,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:02,0.0,1024,ad1820c4,C,,stop,test,C,,C,1.0,,,
+Q-016,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:10,0.0,1024,526ecc2e,C,,stop,test,C,,C,1.0,,,
+N-005a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:12,0.0,1024,fb15c23e,implication,,stop,test,implication,,implication,1.0,,,
+N-005a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:13,0.0,1024,68b6bd30,implication,,stop,test,implication,,implication,1.0,,,
+N-005b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:19,0.0,1024,372cdc19,contradiction,,stop,test,contradiction,,contradiction,1.0,,,
+N-005b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:21,0.0,1024,b55f6554,neutre,,stop,test,contradiction,,neutre,0.0,,,
+N-005c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:25,0.0,1024,c8c30b97,neutre,,stop,test,neutre,,neutre,1.0,,,
+N-005c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:30,0.0,1024,4713b787,neutre,,stop,test,neutre,,neutre,1.0,,,
+N-006a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:31,0.0,1024,e735035b,implication,,stop,test,implication,,implication,1.0,,,
+N-006a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:36,0.0,1024,b703110e,implication,,stop,test,implication,,implication,1.0,,,
+N-006b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:38,0.0,1024,bbb3210f,contradiction,,stop,test,contradiction,,contradiction,1.0,,,
+N-006b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:41,0.0,1024,f7a223fb,contradiction,,stop,test,contradiction,,contradiction,1.0,,,
+N-006c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:45,0.0,1024,34989d32,neutre,,stop,test,neutre,,neutre,1.0,,,
+N-006c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:47,0.0,1024,c06bb791,neutre,,stop,test,neutre,,neutre,1.0,,,
+C-011,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:52,0.0,1024,69ed77ba,"Fin wslti, rani kantsnak hada l-mahatta.",,stop,test,"Fin wselti, rani kantsnak 7da lma7atta.","fin wsliti, rani kantsenak 7da lmahata.|fen wselti rani kantsnak.","Fin wslti, rani kantsnak hada l-mahatta.",0.0,0.108,0.125,1.0
+C-011,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:54,0.0,1024,1570f22f,فين وصلت، راني كنتسناك هدا لماتة.,,stop,test,"فين وصلتي, راني كنتسناك حدا المحطة.",,فين وصلت، راني كنتسناك هدا لماتة.,0.0,0.152,0.179,1.0
+C-012,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:56,0.0,1024,d96cfa83,khasek tchreb d-douwa f waqto w tbe3 r-rijim.,,stop,test,Khassek tchreb ddwa f we9to w ttebbe3 rrijim.,khasek tchrob dwa f weqto w tebe3 rijim.|khask tchreb ddwa.,khasek tchreb d-douwa f waqto w tbe3 r-rijim.,0.0,0.179,0.216,1.0
+C-012,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:19:58,0.0,1024,a384dd0a,خاسك تشرب دوا في وقتو وتبعا الرجيم.,,stop,test,خاصك تشرب الدوا فوقتو وتبع الريجيم.,,خاسك تشرب دوا في وقتو وتبعا الرجيم.,0.0,0.206,0.207,1.0
+C-013,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:00,0.0,1024,b0c07d9e,sift lia l'email bash nchouf l'dossier lyoum.,,stop,test,Seyfet lia l'email bach nchouf ddossier lyoma.,sift liya l email bach nchof dossier lyom.|sayfet lia l'email.,sift lia l'email bash nchouf l'dossier lyoum.,0.0,0.146,0.147,1.0
+C-013,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:06,0.0,1024,4be8e538,سيفت لي الماييل باش نشوف الدوسيه اليوم.,,stop,test,صيفط ليا الإيميل باش نشوف الدوسي اليوم.,,سيفت لي الماييل باش نشوف الدوسيه اليوم.,0.0,0.158,0.188,1.0
+C-014,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:08,0.0,1024,0e2ef2e2,3fak chhal l7sab kamel?,,stop,test,3afak ch7al l7ssab kamel?,3afak chhal lhesab kamel?|3afak ch7al le7ssab kamel?,3fak chhal l7sab kamel?,0.0,0.125,0.143,1.0
+C-014,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:10,0.0,1024,eb0d7906,3afak ch7al l7ssab kamel?,,stop,test,عفاك شحال الحساب كامل?,,3afak ch7al l7ssab kamel?,0.0,1.0,1.167,0.0
+Q-017,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:12,0.0,1024,e028ee9b,C,,stop,test,C,,C,1.0,,,
+Q-017,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:14,0.0,1024,0c29ed2d,C,,stop,test,C,,C,1.0,,,
+Q-018,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:16,0.0,1024,bc9412d0,D,,stop,test,D,,D,1.0,,,
+Q-018,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:20,0.0,1024,49665711,D,,stop,test,D,,D,1.0,,,
+Q-019,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:22,0.0,1024,81948b52,A,,stop,test,A,,A,1.0,,,
+Q-019,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:26,0.0,1024,23a62cbb,A,,stop,test,A,,A,1.0,,,
+Q-020,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:28,0.0,1024,4001d014,B,,stop,test,B,,B,1.0,,,
+Q-020,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:31,0.0,1024,2e2f15b6,B,,stop,test,B,,B,1.0,,,
+N-007a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:33,0.0,1024,c1e54d1f,implication,,stop,test,implication,,implication,1.0,,,
+N-007a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:35,0.0,1024,c708219b,implication,,stop,test,implication,,implication,1.0,,,
+N-007b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:36,0.0,1024,f9abed0b,contradiction,,stop,test,contradiction,,contradiction,1.0,,,
+N-007b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:41,0.0,1024,a96fb802,contradiction,,stop,test,contradiction,,contradiction,1.0,,,
+N-007c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:43,0.0,1024,924af696,neutre,,stop,test,neutre,,neutre,1.0,,,
+N-007c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:45,0.0,1024,668b2652,neutre,,stop,test,neutre,,neutre,1.0,,,
+N-008a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:51,0.0,1024,46056591,implication,,stop,test,implication,,implication,1.0,,,
+N-008a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:53,0.0,1024,479519aa,contradiction,,stop,test,implication,,contradiction,0.0,,,
+N-008b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:20:54,0.0,1024,ed491ade,contradiction,,stop,test,contradiction,,contradiction,1.0,,,
+N-008b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:01,0.0,1024,d0075701,contradiction,,stop,test,contradiction,,contradiction,1.0,,,
+N-008c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:03,0.0,1024,ed1b864a,neutre,,stop,test,neutre,,neutre,1.0,,,
+N-008c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:05,0.0,1024,e1d6781d,neutre,,stop,test,neutre,,neutre,1.0,,,
+C-015,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:06,0.0,1024,2f6787eb,Allah y3tik lsiha 3la had lmajhoud.,,stop,test,Llah ya3tik sse77a 3la had lmajhoub.,llah y3tik saha 3la had lmejhoud.|lah ya3tik se7a.,Allah y3tik lsiha 3la had lmajhoud.,0.0,0.125,0.148,1.0
+C-015,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:11,0.0,1024,e4be3d69,الله يعطيك الصحة على هاد المجبوب.,,stop,test,الله يعطيك الصحة على هاد المجهود.,,الله يعطيك الصحة على هاد المجبوب.,0.0,0.062,0.074,1.0
+C-016,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:13,0.0,1024,128bf3cb,Kain wahd ssahd sa3ib lyawm falzenqa.,,stop,test,Kayen wa7ed sshed s3ib lyoma f zzen9a.,kayn wahd shed s3ib lyom f zanqa.|kayn wahed sehd s3ib.,Kain wahd ssahd sa3ib lyawm falzenqa.,0.0,0.312,0.385,1.0
+C-016,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:15,0.0,1024,b6966aa6,كاين واحد الشد الصايب ليوم ف الزنقة.,,stop,test,كاين واحد الصهد صعيب اليوم فالزنقة.,,كاين واحد الشد الصايب ليوم ف الزنقة.,0.0,0.206,0.207,1.0
+C-017,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:17,0.0,1024,5fe3e4a5,slm lia 3la walid w dar kamlin,,stop,test,Sellem lia 3la lwalid w ddar kamlin.,slem liya 3la lwalid w dar kamlin.|sellem 3la lwalid.,slm lia 3la walid w dar kamlin,0.0,0.091,0.111,1.0
+C-017,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:22,0.0,1024,2bbde62a,سلام لي على الوليد والدّار كاملين.,,stop,test,سلم ليا على الوالد والدار كاملين.,,سلام لي على الوليد والدّار كاملين.,0.0,0.125,0.148,1.0
+C-018,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:25,0.0,1024,8cd15c6d,Wach 3ndek es-sarf dyal meytin dirham?,,stop,test,Wach 3ndek ssarf dyal miyatayn derham?,wach 3ndk sarf dial 200 derham?|wach 3ndek ssarf d mitin drhm?,Wach 3ndek es-sarf dyal meytin dirham?,0.0,0.162,0.188,1.0
+C-018,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:26,0.0,1024,4fe46c22,واش عندك الصرف ديال مياتين درهم؟,,stop,test,واش عندك الصرف ديال ميتين درهم?,,واش عندك الصرف ديال مياتين درهم؟,0.0,0.033,0.04,1.0
+Q-021,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:30,0.0,1024,2fccf5a4,D,,stop,test,D,,D,1.0,,,
+Q-021,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:34,0.0,1024,77ca4e2f,D,,stop,test,D,,D,1.0,,,
+Q-022,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:36,0.0,1024,48cbfe5f,A,,stop,test,A,,A,1.0,,,
+Q-022,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:40,0.0,1024,afe1921e,A,,stop,test,A,,A,1.0,,,
+Q-023,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:44,0.0,1024,91988fa6,C,,stop,test,C,,C,1.0,,,
+Q-023,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:48,0.0,1024,7ad9149b,C,,stop,test,C,,C,1.0,,,
+Q-024,qcm,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:52,0.0,1024,a826bac5,D,,stop,test,D,,D,1.0,,,
+Q-024,qcm,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:54,0.0,1024,2c7150b2,D,,stop,test,D,,D,1.0,,,
+N-011a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:57,0.0,1024,1c7de84e,neutre,,stop,test,implication,,neutre,0.0,,,
+N-011a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:21:59,0.0,1024,620a0c5e,implication,,stop,test,implication,,implication,1.0,,,
+N-011b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:00,0.0,1024,ad3541cc,contradiction,,stop,test,contradiction,,contradiction,1.0,,,
+N-011b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:02,0.0,1024,7dd2d417,implication,,stop,test,contradiction,,implication,0.0,,,
+N-011c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:06,0.0,1024,b90f3352,neutre,,stop,test,neutre,,neutre,1.0,,,
+N-011c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:08,0.0,1024,7d4a1d11,neutre,,stop,test,neutre,,neutre,1.0,,,
+N-012a,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:10,0.0,1024,dbf9c336,neutre,,stop,test,implication,,neutre,0.0,,,
+N-012a,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:14,0.0,1024,f1ffee32,neutre,,stop,test,implication,,neutre,0.0,,,
+N-012b,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:16,0.0,1024,3ebe5407,contradiction,,stop,test,contradiction,,contradiction,1.0,,,
+N-012b,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:20,0.0,1024,d5e42ee1,contradiction,,stop,test,contradiction,,contradiction,1.0,,,
+N-012c,nli,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:23,0.0,1024,307154e3,neutre,,stop,test,neutre,,neutre,1.0,,,
+N-012c,nli,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:25,0.0,1024,0095fff4,neutre,,stop,test,neutre,,neutre,1.0,,,
+C-019,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:29,0.0,1024,ba11528b,"ma bqa ch fya lhal, lmuhim hiya lsahha w lsalama.",,stop,test,"Ma b9ach fiya l7al, lmouhim hiya sse77a w ssalama.","mab9ach fia lhal, lmohim hya seha w salama.|ma b9ach fiya lhal.","ma bqa ch fya lhal, lmuhim hiya lsahha w lsalama.",0.0,0.208,0.225,1.0
+C-019,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:30,0.0,1024,7c7728f5,ما بقاش فيا الحل، المهم هي الصحة والسلامة.,,stop,test,"ما بقاش فيا الحال, المهم هي الصحة والسلامة.",,ما بقاش فيا الحل، المهم هي الصحة والسلامة.,0.0,0.024,0.029,1.0
+C-020,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:35,0.0,1024,decba1e3,wach had ltopbus kidouz 3la jama3 fna?,,stop,test,Wach had ttobis kaydouz 3la Jame3 lfna?,wach had tobis kidouz 3la jama3 lfna?|wach had ttobis kaydoz 3la jame3 lfna?,wach had ltopbus kidouz 3la jama3 fna?,0.0,0.111,0.133,1.0
+C-020,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:37,0.0,1024,5b4fd0fc,واش هاد التوبيس كيدوز على جامع الفنا؟,,stop,test,واش هاد الطوبيس كيدوز على جامع الفنا?,,واش هاد التوبيس كيدوز على جامع الفنا؟,0.0,0.028,0.033,1.0
+C-021,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:39,0.0,1024,64fa080c,lkhedma kayna walakin khas b nadem ysaber we yezir rasso.,,stop,test,Lkhedma kayna walakin khas bnadem yssber w yzeyyer rassou.,lkhdma kayna walakin khass bnadem ysber.|lkhedma kayna walakin khas bnadm ysber.,lkhedma kayna walakin khas b nadem ysaber we yezir rasso.,0.0,0.14,0.143,1.0
+C-021,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:42,0.0,1024,9724f007,الخدمة كاينة ولكن خاص بنادم يسبر ويزير راسو.,,stop,test,الخدمة كاينة ولكن خاص بنادم يصبر ويزير راسو.,,الخدمة كاينة ولكن خاص بنادم يسبر ويزير راسو.,0.0,0.023,0.028,1.0
+C-022,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:44,0.0,1024,56783394,n99s lia chwiya f lthmen rani kliane qadim 3endek.,,stop,test,N9es lia chwiya f ttaman rani klyan 9dim 3ndek.,n9es liya chwia f taman rani cliyan qdim 3ndk.|n9es lia chwiya f taman.,n99s lia chwiya f lthmen rani kliane qadim 3endek.,0.0,0.196,0.237,1.0
+C-022,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:46,0.0,1024,17de9661,ن9س ليا شوية ف التمان راني كليان 9ديم عندك.,,stop,test,نقص ليا شوية فالثمن راني كليان قديم عندك.,,ن9س ليا شوية ف التمان راني كليان 9ديم عندك.,0.0,0.15,0.152,1.0
+C-023,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:50,0.0,1024,76750fd9,sd chrgm rah kidkhel lbrd bzaf lbyt l3nas.,,stop,test,Sedd ccherjem rah kaydkhol lberd bzaf l bit nna3s.,sedd cherjam rah kaydkhol lberd bzaf.|sed cherjem rah kidkhol lberd.,sd chrgm rah kidkhel lbrd bzaf lbyt l3nas.,0.0,0.306,0.341,1.0
+C-023,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:54,0.0,1024,dac78c5a,سد الشرم راح كيخدم للبرد بزاف للبيت الناس.,,stop,test,سد الشرجم راه كيدخل البرد بزاف لبيت النعاس.,,سد الشرم راح كيخدم للبرد بزاف للبيت الناس.,0.0,0.19,0.2,1.0
+C-024,conversion,ar,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:22:58,0.0,1024,ce5307ee,"l'wifi tqil bzaf lyoum, waqila khasna nrodimo l'rotor.",,stop,test,"Lwifi t9il bzaf lyoma, wa9ila khasna nredemariw lrouteur.","lwifi tqil bzaf lyom, waqila khassna nredemariw routeur.|l wifi t9il bzaf lyoma.","l'wifi tqil bzaf lyoum, waqila khasna nrodimo l'rotor.",0.0,0.222,0.234,1.0
+C-024,conversion,lat,qwen3.8-27b,qwen/qwen3.8-27b,2026-10-25T13:23:00,0.0,1024,b06b20ba,الواي فاي تقيل بزاف ليوما، وقيلا خاصنا نردماريو الراوتر.,,stop,test,"الويفي تقيل بزاف اليوم, واقيلا خاصنا نروديماريو الروتور.",,الواي فاي تقيل بزاف ليوما، وقيلا خاصنا نردماريو الراوتر.,0.0,0.185,0.191,1.0

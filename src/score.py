@@ -11,17 +11,19 @@ if len(sys.argv) < 3:
 DATA, RAW = sys.argv[1], sys.argv[2]
 gold = pd.read_excel(DATA, dtype=str).fillna("")
 
-# Ne charger que la DERNIÈRE réponse valide pour chaque (id, graphie)
-raw_dict = {}
+# Charger uniquement les réponses valides non vides
+raw_records = []
 for line in open(RAW, encoding="utf-8"):
     if line.strip():
         j = json.loads(line)
-        if not j.get("erreur"):
-            raw_dict[(j["id"], j["graphie"])] = j
+        if not j.get("erreur") and j.get("reponse_brute", "").strip():
+            raw_records.append(j)
 
-raw = pd.DataFrame(list(raw_dict.values()))
+raw = pd.DataFrame(raw_records)
 
-# On inclut 'tache' dans le "on" pour éviter les doublons tache_x / tache_y
+# Ne garder que la dernière tentative par (id, graphie)
+raw = raw.drop_duplicates(subset=["id", "graphie"], keep="last")
+
 df = raw.merge(
     gold[["id", "tache", "graphie", "split", "gold", "gold_alt"]],
     on=["id", "tache", "graphie"],
@@ -37,6 +39,10 @@ def nettoyer(t):
     return t.strip()
 
 def extraire(r):
+    # Si la réponse a été tronquée par manque de tokens
+    if r.get("finish_reason") == "length":
+        return "INVALIDE"
+
     t = nettoyer(r["reponse_brute"])
     if r["tache"] == "qcm":
         m = re.search(r"\b([ABCD])\b", t)
@@ -44,7 +50,6 @@ def extraire(r):
     
     if r["tache"] == "nli":
         t2 = t.lower()
-        # Prendre le premier label qui apparaît chronologiquement
         pos = {l: t2.find(l) for l in ["implication", "contradiction", "neutre"] if l in t2}
         return min(pos, key=pos.get) if pos else "INVALIDE"
         
@@ -52,11 +57,8 @@ def extraire(r):
 
 def norm(t, sans_espace=False):
     t = unicodedata.normalize("NFC", str(t).lower())
-    # 1. Enlever voyelles brèves arabes (harakat) et tatweel
-    t = re.sub(r"[\u064B-\u0652\u0640]", "", t)
-    # 2. Normalisation des alefs
+    t = re.sub(r"[\u064B-\u0652\u0640]", "", t)  # suppression voyelles brèves / tatweel
     t = re.sub(r"[أإآ]", "ا", t)
-    # 3. Enlever ponctuation et apostrophes/tirets
     t = re.sub(r"['’\-?.,!؟،;]", "", t)
     if sans_espace:
         return re.sub(r"\s+", "", t).strip()
@@ -66,7 +68,7 @@ df["pred"] = df.apply(extraire, axis=1)
 
 def evaluer(r):
     if r["tache"] != "conversion":
-        return pd.Series({"correct": int(r["pred"] == r["gold"]), "cer": None, "cer_no_space": None, "script_ok": None})
+        return pd.Series({"correct": int(r["pred"] == r["gold"]), "cer": None, "cer_sans_espace": None, "script_ok": None})
     
     refs = [r["gold"]] + [g for g in str(r["gold_alt"]).split("|") if g]
     p_norm = norm(r["pred"])
@@ -82,14 +84,14 @@ def evaluer(r):
     return pd.Series({
         "correct": int(any(p_norm == norm(g) for g in refs)),
         "cer": round(cer, 3),
-        "cer_no_space": round(cer_ns, 3),
+        "cer_sans_espace": round(cer_ns, 3),
         "script_ok": script_ok
     })
 
-df[["correct", "cer", "cer_no_space", "script_ok"]] = df.apply(evaluer, axis=1)
+df[["correct", "cer", "cer_sans_espace", "script_ok"]] = df.apply(evaluer, axis=1)
 
 print("\n" + "=" * 80)
-print("=== 1. SCORES OFFICIELS PAR SPLIT, TÂCHE ET GRAPHIE ===")
+print("=== SCORES OFFICIELS PAR SPLIT, TÂCHE ET GRAPHIE ===")
 print("=== (Ligne de base aléatoire : QCM = 25.0% | NLI = 33.3%) ===")
 print("=" * 80)
 scores = df.groupby(["split", "tache", "graphie"]).agg(
@@ -97,13 +99,13 @@ scores = df.groupby(["split", "tache", "graphie"]).agg(
     accuracy=("correct", "mean"),
     invalides=("pred", lambda s: (s == "INVALIDE").sum()),
     cer=("cer", "mean"),
-    cer_sans_espace=("cer_no_space", "mean"),
+    cer_sans_espace=("cer_sans_espace", "mean"),
     script_ok=("script_ok", "mean")
 ).round(3)
 print(scores)
 
 print("\n" + "=" * 80)
-print("=== 2. MACRO-F1 NLI PAR SPLIT ET GRAPHIE ===")
+print("=== MACRO-F1 NLI PAR SPLIT ET GRAPHIE ===")
 print("=" * 80)
 nli = df[df["tache"] == "nli"]
 for (split, graphie), sub in nli.groupby(["split", "graphie"]):
@@ -115,7 +117,7 @@ for (split, graphie), sub in nli.groupby(["split", "graphie"]):
     print(f"[{split.upper()}] Graphie {graphie} : F1 = {score_f1:.3f}")
 
 print("\n" + "=" * 80)
-print("=== 3. COHÉRENCE ET ROBUSTESSE CONJOINTE (ar ET lat réussis) ===")
+print("=== COHÉRENCE ET ROBUSTESSE CONJOINTE (ar ET lat réussis) ===")
 print("=" * 80)
 for split in ["dev", "test"]:
     for tache in ["qcm", "nli"]:
@@ -130,5 +132,6 @@ for split in ["dev", "test"]:
 
 os.makedirs("results/tables", exist_ok=True)
 out = RAW.replace("results/raw", "results/tables").replace(".jsonl", "_detail.csv")
-df.drop(columns=["prompt", "reponse_brute"], errors="ignore").to_csv(out, index=False, encoding="utf-8-sig")
-print(f"\n📁 Fichier de détail mis à jour : {out}")
+# ON GARDE reponse_brute POUR PERMETTRE L'AUDIT
+df.drop(columns=["prompt"], errors="ignore").to_csv(out, index=False, encoding="utf-8-sig")
+print(f"\n📁 Fichier de détail auditable mis à jour : {out}")

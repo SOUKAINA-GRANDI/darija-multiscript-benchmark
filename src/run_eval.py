@@ -15,13 +15,17 @@ MODELS = {
 
 DATA = sys.argv[1] if len(sys.argv) > 1 else "data/final/benchmark.xlsx"
 MODEL_NAME = sys.argv[2] if len(sys.argv) > 2 else "qwen3.8-27b"
+SPLIT_TARGET = sys.argv[3] if len(sys.argv) > 3 else "all"  # "dev", "test", ou "all"
 
 if MODEL_NAME not in MODELS:
     raise ValueError(f"Modèle inconnu : {MODEL_NAME}")
 
 os.makedirs("results/raw", exist_ok=True)
-OUT = f"results/raw/{os.path.basename(DATA).split('.')[0]}_{MODEL_NAME}.jsonl"
+OUT = f"results/raw/benchmark_{MODEL_NAME}.jsonl"
 PAUSE = 1.5
+
+# 1024 tokens indispensables pour les modèles à raisonnement (cot/thinking)
+MAX_TOKENS = 1024
 
 PROMPTS = {t: open(f"prompts/{t}.txt", encoding="utf-8").read() for t in ["qcm", "nli", "conversion"]}
 
@@ -34,19 +38,22 @@ def build_prompt(r):
         return PROMPTS["conversion"].format(cible=cible, texte=r["texte"])
     return PROMPTS[r["tache"]].format(**r)
 
-# Cache strict : ne garde que les requêtes RÉUSSIES avec le MÊME prompt hash
+# Cache strict : ne garde que les réponses NON VIDES, SANS ERREUR et NON TRONQUÉES
 done = set()
 if os.path.exists(OUT):
     with open(OUT, encoding="utf-8") as f:
         for line in f:
             if line.strip():
                 j = json.loads(line)
-                if not j.get("erreur"):  # Uniquement si réussi sans erreur
+                if not j.get("erreur") and j.get("reponse_brute", "").strip() and j.get("finish_reason") != "length":
                     done.add((j["id"], j["graphie"], j.get("prompt_hash", "")))
 
 cfg = MODELS[MODEL_NAME]
 client = OpenAI(api_key=os.getenv(cfg["key"]), base_url=cfg["base_url"])
 df = pd.read_excel(DATA, dtype=str).fillna("")
+
+if SPLIT_TARGET != "all":
+    df = df[df["split"] == SPLIT_TARGET]
 
 todo = []
 for _, r in df.iterrows():
@@ -55,7 +62,7 @@ for _, r in df.iterrows():
     if (r["id"], r["graphie"], h) not in done:
         todo.append((r, p, h))
 
-print(f"Modèle : {MODEL_NAME} | {len(todo)} requêtes à exécuter ({len(done)} valides en cache)")
+print(f"Modèle : {MODEL_NAME} | Split : {SPLIT_TARGET} | {len(todo)} requêtes à exécuter ({len(done)} valides en cache)")
 
 with open(OUT, "a", encoding="utf-8") as out:
     for r, prompt, p_hash in tqdm(todo):
@@ -66,10 +73,17 @@ with open(OUT, "a", encoding="utf-8") as out:
                     model=cfg["model"],
                     messages=[{"role": "user", "content": prompt}],
                     temperature=0.0,
-                    max_tokens=80
+                    max_tokens=MAX_TOKENS
                 )
                 reponse = rep.choices[0].message.content or ""
                 finish_reason = rep.choices[0].finish_reason or ""
+                
+                # Rejeter si tronqué par max_tokens ou vide
+                if finish_reason == "length" or not reponse.strip():
+                    erreur = f"Réponse vide ou tronquée (finish_reason={finish_reason})"
+                    time.sleep(3 * (essai + 1))
+                    continue
+                
                 erreur = ""
                 break
             except Exception as e:
@@ -81,7 +95,7 @@ with open(OUT, "a", encoding="utf-8") as out:
             "id": r["id"], "tache": r["tache"], "graphie": r["graphie"],
             "modele": MODEL_NAME, "model_id": cfg["model"],
             "date": datetime.now().isoformat(timespec="seconds"),
-            "temperature": 0.0, "max_tokens": 80,
+            "temperature": 0.0, "max_tokens": MAX_TOKENS,
             "prompt_hash": p_hash,
             "reponse_brute": reponse, "erreur": erreur,
             "finish_reason": finish_reason
