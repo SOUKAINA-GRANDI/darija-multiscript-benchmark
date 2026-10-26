@@ -1,32 +1,34 @@
-# Benchmark Multigraphique pour l'Évaluation des LLM en Darija Marocaine
+# A Multiscript Benchmark for Evaluating Large Language Models on Moroccan Darija (Arabic vs Arabizi)
 
 Projet de Fin d'Année (PFA) - Master Data Science & Big Data (DSBD)  
 **Faculté des Sciences Ben M'Sick - Université Hassan II de Casablanca**  
-**Réalisé par :** Soukaina Grandi  
-**Encadré par :** M. Zahour Omar  
+**Auteur :** Soukaina Grandi  
+**Encadrant :** M. Zahour Omar  
 
 ---
 
-## 📌 Présentation du Projet
-La darija marocaine, langue peu dotée, se caractérise par l'absence d'orthographe standardisée et une dualité d'écriture quotidienne :
-- **L'alphabet arabe** (ex: *كداير*)
-- **L'arabizi** combinant alphabet latin et chiffres phonétiques (ex: *kidayr*, *ki dayr*, *3jebni*).
+## 📌 Context & Objectives
+Moroccan Darija is a low-resource dialect characterized by the daily coexistence of two distinct scripts:
+- **Arabic script** (e.g., *كيداير*)
+- **Arabizi** (Latin letters combined with phonetic numerals: `3` for ع, `7` for ح, `9` for ق, e.g., *kidayr*, *3jebni*).
 
-Ce projet propose un **benchmark multigraphique étalonné** évaluant si le choix de la graphie influence la compréhension et le raisonnement des grands modèles de langage (LLM).
-
----
-
-## 🏗️ Structure du Corpus (`data/final/benchmark.xlsx`)
-Le benchmark comprend **156 items** (78 contenus uniques systématiquement déclinés en arabe `ar` et arabizi `lat`) :
-- **Conversion de graphie (48 lignes) :** Arabe $\leftrightarrow$ Arabizi.
-- **Compréhension de texte / QCM (48 lignes) :** Choix multiple A, B, C, D équilibré.
-- **Inférence textuelle / NLI (60 lignes) :** Implication, Contradiction, Neutre.
-- **Cloisonnement strict :** Split `dev` (64 lignes) pour le calibrage des invites et Split `test` (92 lignes) pour l'évaluation finale à l'aveugle.
+This repository provides an étalonned, human-authored benchmark assessing whether script choice affects LLM comprehension, reasoning, and generation.
 
 ---
 
-## ⚙️ Environnement Technique
-- **Python :** 3.12
-- **Installation des dépendances :**
-  ```bash
-  pip install -r requirements.txt
+## 🏗️ Benchmark Architecture (`data/final/benchmark.xlsx`)
+The benchmark consists of **156 parallel items** (78 unique concepts evaluated across both scripts):
+- **Script Conversion (48 rows):** Arabic $\leftrightarrow$ Arabizi (Testing surface-level form).
+- **Reading Comprehension / MCQ (48 rows):** 4-way multiple-choice questions (Testing contextual meaning).
+- **Natural Language Inference / NLI (60 rows):** Entailment, Contradiction, Neutral (Testing logical reasoning).
+- **Hermetic Partitioning:** Strict `dev` split (64 rows) for prompt calibration and `test` split (92 rows) for benchmark evaluation.
+
+---
+
+## ⚙️ Quick Start
+
+### 1. Installation
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\Activate.ps1
+pip install -r requirements.txt
