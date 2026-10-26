@@ -155,3 +155,37 @@ C-023,conversion,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-25T13:34:32,0.0,102
 C-023,conversion,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-25T13:34:36,0.0,1024,dac78c5a,سّد الشرجيم راه كيدخل البرد بزاف للبيت النعس,,stop,test,سد الشرجم راه كيدخل البرد بزاف لبيت النعاس.,سد الشرجم راه كيدخل البرد بزاف لبيت النعاس|سد الشرجم راه كيدخل البرد لبيت النعاس,سّد الشرجيم راه كيدخل البرد بزاف للبيت النعس,0.0,0.071,0.086,1.0
 C-024,conversion,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-25T13:34:39,0.0,1024,ce5307ee,"lwifi tqil bzaaf lyoum, waqila khassna nroudimariw lrouter.",,stop,test,"Lwifi t9il bzaf lyoma, wa9ila khasna nredemariw lrouteur.","lwifi tqil bzaf lyom, waqila khassna nredemariw routeur.|l wifi t9il bzaf lyoma.","lwifi tqil bzaaf lyoum, waqila khassna nroudimariw lrouter.",0.0,0.13,0.149,1.0
 C-024,conversion,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-25T13:34:44,0.0,1024,b06b20ba,الوايفاي تقيل بزاف اليوم، واقيلا خاصنا نرديماريوا الروتر.,,stop,test,"الويفي تقيل بزاف اليوم, واقيلا خاصنا نروديماريو الروتور.",الويفي ثقيل بزاف اليوم واقيلا خاصنا نروديماريو الروتور|الويفي تقيل بزاف اليوم خاصنا نروديماريو الروتور,الوايفاي تقيل بزاف اليوم، واقيلا خاصنا نرديماريوا الروتر.,0.0,0.093,0.106,1.0
+Q-025,qcm,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:32:44,0.0,1024,3fba47b8,C,,stop,test,C,,C,1.0,,,
+Q-025,qcm,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:32:46,0.0,1024,467a4ee7,C,,stop,test,C,,C,1.0,,,
+Q-026,qcm,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:32:48,0.0,1024,6272cf30,A,,stop,test,A,,A,1.0,,,
+Q-026,qcm,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:32:51,0.0,1024,629586e6,A,,stop,test,A,,A,1.0,,,
+Q-027,qcm,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:32:53,0.0,1024,7116fae9,D,,stop,test,D,,D,1.0,,,
+Q-027,qcm,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:32:55,0.0,1024,eca197c7,D,,stop,test,D,,D,1.0,,,
+Q-028,qcm,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:32:58,0.0,1024,4e7f1d03,B,,stop,test,B,,B,1.0,,,
+Q-028,qcm,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:00,0.0,1024,28126af8,B,,stop,test,B,,B,1.0,,,
+Q-029,qcm,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:02,0.0,1024,eceec803,C,,stop,test,C,,C,1.0,,,
+Q-029,qcm,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:05,0.0,1024,d45ab992,C,,stop,test,C,,C,1.0,,,
+Q-030,qcm,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:07,0.0,1024,c690d75f,A,,stop,test,A,,A,1.0,,,
+Q-030,qcm,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:09,0.0,1024,b86d9898,A,,stop,test,A,,A,1.0,,,
+N-013a,nli,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:12,0.0,1024,cc7dfe29,implication,,stop,test,implication,,implication,1.0,,,
+N-013a,nli,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:14,0.0,1024,3f633b18,neutre,,stop,test,implication,,neutre,0.0,,,
+N-013b,nli,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:17,0.0,1024,d1624548,neutre,,stop,test,contradiction,,neutre,0.0,,,
+N-013b,nli,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:19,0.0,1024,652d21d1,neutre,,stop,test,contradiction,,neutre,0.0,,,
+N-013c,nli,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:22,0.0,1024,7c5189c5,neutre,,stop,test,neutre,,neutre,1.0,,,
+N-013c,nli,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:24,0.0,1024,66a4fab7,neutre,,stop,test,neutre,,neutre,1.0,,,
+N-014a,nli,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:26,0.0,1024,b79e46cb,implication,,stop,test,implication,,implication,1.0,,,
+N-014a,nli,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:29,0.0,1024,49674233,implication,,stop,test,implication,,implication,1.0,,,
+N-014b,nli,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:31,0.0,1024,5855726f,neutre,,stop,test,contradiction,,neutre,0.0,,,
+N-014b,nli,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:33,0.0,1024,f7b9b1be,contradiction,,stop,test,contradiction,,contradiction,1.0,,,
+N-014c,nli,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:36,0.0,1024,70532673,neutre,,stop,test,neutre,,neutre,1.0,,,
+N-014c,nli,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:38,0.0,1024,895135dd,neutre,,stop,test,neutre,,neutre,1.0,,,
+N-015a,nli,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:40,0.0,1024,8da1e53b,implication,,stop,test,implication,,implication,1.0,,,
+N-015a,nli,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:42,0.0,1024,9491cb07,implication,,stop,test,implication,,implication,1.0,,,
+N-015b,nli,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:44,0.0,1024,da82c448,contradiction,,stop,test,contradiction,,contradiction,1.0,,,
+N-015b,nli,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:48,0.0,1024,7440d858,contradiction,,stop,test,contradiction,,contradiction,1.0,,,
+N-015c,nli,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:51,0.0,1024,e3983c34,neutre,,stop,test,neutre,,neutre,1.0,,,
+N-015c,nli,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:53,0.0,1024,a7b16960,neutre,,stop,test,neutre,,neutre,1.0,,,
+C-025,conversion,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:56,0.0,1024,d7f84f55,rasi kaydarni bzaaf khasni nshrb chi kine,,stop,test,Rassi kayderni bzaf khasni nchreb chi kina.,rasi kiderni bzzaf khassni nchrob kina|rassi kaydrni bzaf khasni kina,rasi kaydarni bzaaf khasni nshrb chi kine,0.0,0.143,0.167,1.0
+C-025,conversion,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:33:59,0.0,1024,5335b104,راسي كايديرني بزاف خاصني نشرب شي كينا,,stop,test,راسي كيضرني بزاف خاصني نشرب شي كينة.,راسي كيضرني بزاف خاصني نشرب كينة|راسي كيضرني بزاف خاصني كينة,راسي كايديرني بزاف خاصني نشرب شي كينا,0.0,0.114,0.138,1.0
+C-026,conversion,ar,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:34:02,0.0,1024,9308e82e,ghdda 3ndi mqabla dial lkhadma m3a tss3od sba7,,stop,test,Ghedda 3ndi mo9abala dyal lkhedma m3a ttss3oud d sba7.,ghda 3ndi entretient d lkhedma m3a 9 sba7|ghedda 3ndi moqabala dial lkhdma,ghdda 3ndi mqabla dial lkhadma m3a tss3od sba7,0.0,0.189,0.2,1.0
+C-026,conversion,lat,gpt-oss-120b,openai/gpt-oss-120b,2026-10-26T21:34:05,0.0,1024,2531785b,غدا عندي مقابلة ديال الخدمة مع تسعود د صباح.,,stop,test,غدا عندي مقابلة ديال الخدمة مع التسعود الصباح.,غدا عندي مقابلة د الخدمة مع التسعود د الصباح|غدا عندي مقابلة ديال الخدمة مع 9 د الصباح,غدا عندي مقابلة ديال الخدمة مع تسعود د صباح.,0.0,0.089,0.105,1.0
