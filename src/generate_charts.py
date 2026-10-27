@@ -15,9 +15,9 @@ width = 0.25
 # =========================================================================
 # Graphique 1 : Raisonnement NLI (Split Test Consolidé, N=27 paires)
 # =========================================================================
-nli_ar = [88.9, 100.0, 66.7]
-nli_lat = [66.7, 88.9, 37.0]
-nli_joint = [63.0, 85.2, 33.3]
+nli_ar = [77.3, 81.8, 59.1]
+nli_lat = [68.2, 80.3, 36.4]
+nli_joint = [60.6, 71.2, 33.3]
 
 rects1 = ax1.bar(x - width, nli_ar, width, label='Arabe (ar)', color='#1f77b4')
 rects2 = ax1.bar(x, nli_lat, width, label='Arabizi (lat)', color='#aec7e8')
@@ -47,8 +47,8 @@ for rects in [rects1, rects2, rects3]:
 # =========================================================================
 # Graphique 2 : Qualité de la Conversion (Split Test Consolidé, N=16 phrases)
 # =========================================================================
-cer_ar_lat = [17.1, 15.9, 87.6]   # ar -> lat
-cer_lat_ar = [17.1, 7.4, 22.5]    # lat -> ar
+cer_ar_lat = [17.0, 15.2, 87.3]   # ar -> lat
+cer_lat_ar = [19.9, 8.8, 26.1]    # lat -> ar
 
 rects4 = ax2.bar(x - width/2, cer_ar_lat, width, label='Arabe → Arabizi (CER %)', color='#d62728')
 rects5 = ax2.bar(x + width/2, cer_lat_ar, width, label='Arabizi → Arabe (CER %)', color='#ff7f0e')

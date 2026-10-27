@@ -233,3 +233,107 @@ C-026,conversion,ar,allam-2-7b,allam-2-7b,2026-10-26T21:36:50,0.0,1024,9308e82e,
 
 في هذه الترجمة، تم تحويل النص من العربية المغربية إلى العربية باستخدام الحروف اللاتينية. النص الأصلي يتحدث عن مقابلة عمل في صباح الغد الساعة التاسعة. ",,stop,test,Ghedda 3ndi mo9abala dyal lkhedma m3a ttss3oud d sba7.,ghda 3ndi entretient d lkhedma m3a 9 sba7|ghedda 3ndi moqabala dial lkhdma,غدّا عندي مقابلة ديال الخدمة مع التسعود الصباح.,0.0,0.868,1.0,0.0
 C-026,conversion,lat,allam-2-7b,allam-2-7b,2026-10-26T21:36:52,0.0,1024,2531785b,عندي مقاولة ديال الخدمة مع تيتسع وتسع وسبعة. ,,stop,test,غدا عندي مقابلة ديال الخدمة مع التسعود الصباح.,غدا عندي مقابلة د الخدمة مع التسعود د الصباح|غدا عندي مقابلة ديال الخدمة مع 9 د الصباح,عندي مقاولة ديال الخدمة مع تيتسع وتسع وسبعة.,0.0,0.356,0.342,1.0
+Q-034,qcm,ar,allam-2-7b,allam-2-7b,2026-10-26T23:49:38,0.0,1024,3c4f052d,A ,,stop,test,A,,A,1.0,,,
+Q-034,qcm,lat,allam-2-7b,allam-2-7b,2026-10-26T23:49:42,0.0,1024,d06cee09,A ,,stop,test,A,,A,1.0,,,
+Q-035,qcm,ar,allam-2-7b,allam-2-7b,2026-10-26T23:49:44,0.0,1024,8941d072,B ,,stop,test,B,,B,1.0,,,
+Q-035,qcm,lat,allam-2-7b,allam-2-7b,2026-10-26T23:49:45,0.0,1024,456efafc,B ,,stop,test,B,,B,1.0,,,
+Q-036,qcm,ar,allam-2-7b,allam-2-7b,2026-10-26T23:49:47,0.0,1024,e6e91608,C ,,stop,test,C,,C,1.0,,,
+Q-036,qcm,lat,allam-2-7b,allam-2-7b,2026-10-26T23:49:49,0.0,1024,060f4213,C ,,stop,test,C,,C,1.0,,,
+Q-037,qcm,ar,allam-2-7b,allam-2-7b,2026-10-26T23:49:56,0.0,1024,aec66f66,D ,,stop,test,D,,D,1.0,,,
+Q-037,qcm,lat,allam-2-7b,allam-2-7b,2026-10-26T23:49:58,0.0,1024,865db4c6,D ,,stop,test,D,,D,1.0,,,
+N-018a,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:50:00,0.0,1024,5a3dc265,implication ,,stop,test,implication,,implication,1.0,,,
+N-018b,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:50:02,0.0,1024,7cddbd33,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-018c,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:50:05,0.0,1024,28fadc16,implication ,,stop,test,neutre,,implication,0.0,,,
+N-018a,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:50:07,0.0,1024,c0c16493,implication ,,stop,test,implication,,implication,1.0,,,
+N-018b,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:50:09,0.0,1024,202196b8,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-018c,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:50:12,0.0,1024,4536f8bd,implication ,,stop,test,neutre,,implication,0.0,,,
+N-019a,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:50:16,0.0,1024,ebaffc8f,contradiction ,,stop,test,implication,,contradiction,0.0,,,
+N-019b,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:50:18,0.0,1024,77f7fb53,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-019c,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:50:20,0.0,1024,360f28e7,implication ,,stop,test,neutre,,implication,0.0,,,
+N-019a,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:50:30,0.0,1024,df48ecd0,contradiction ,,stop,test,implication,,contradiction,0.0,,,
+N-019b,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:50:32,0.0,1024,b36c8e48,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-019c,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:50:34,0.0,1024,8ae4366d,contradiction ,,stop,test,neutre,,contradiction,0.0,,,
+N-020a,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:50:36,0.0,1024,6e10a8d9,contradiction ,,stop,test,implication,,contradiction,0.0,,,
+N-020b,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:50:47,0.0,1024,e3ec2fd6,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-020c,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:50:49,0.0,1024,4dd9bb76,implication ,,stop,test,neutre,,implication,0.0,,,
+N-020a,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:50:51,0.0,1024,51e4f56c,contradiction ,,stop,test,implication,,contradiction,0.0,,,
+N-020b,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:50:53,0.0,1024,b28f7545,implication ,,stop,test,contradiction,,implication,0.0,,,
+N-020c,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:50:55,0.0,1024,00348f4f,contradiction ,,stop,test,neutre,,contradiction,0.0,,,
+N-021a,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:50:57,0.0,1024,6b63c4d6,implication ,,stop,test,implication,,implication,1.0,,,
+N-021b,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:51:00,0.0,1024,207c671b,implication ,,stop,test,contradiction,,implication,0.0,,,
+N-021c,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:51:02,0.0,1024,0bad597d,contradiction ,,stop,test,neutre,,contradiction,0.0,,,
+N-021a,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:51:03,0.0,1024,aeffe33c,contradiction ,,stop,test,implication,,contradiction,0.0,,,
+N-021b,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:51:06,0.0,1024,b6aeeabd,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-021c,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:51:08,0.0,1024,e5f917ca,implication ,,stop,test,neutre,,implication,0.0,,,
+N-022a,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:51:10,0.0,1024,a09745b7,contradiction ,,stop,test,implication,,contradiction,0.0,,,
+N-022b,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:51:12,0.0,1024,dbae80a6,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-022c,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:51:16,0.0,1024,86647c44,implication ,,stop,test,neutre,,implication,0.0,,,
+N-022a,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:51:18,0.0,1024,c43f4226,contradiction ,,stop,test,implication,,contradiction,0.0,,,
+N-022b,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:51:20,0.0,1024,7d048e4f,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-022c,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:51:22,0.0,1024,308a3785,implication ,,stop,test,neutre,,implication,0.0,,,
+N-023a,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:51:24,0.0,1024,9710457d,implication ,,stop,test,implication,,implication,1.0,,,
+N-023b,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:51:26,0.0,1024,978724f2,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-023c,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:51:28,0.0,1024,0132b965,implication ,,stop,test,neutre,,implication,0.0,,,
+N-023a,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:51:30,0.0,1024,2787d8cd,implication ,,stop,test,implication,,implication,1.0,,,
+N-023b,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:51:32,0.0,1024,c599a0e7,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-023c,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:51:34,0.0,1024,05898f0c,contradiction ,,stop,test,neutre,,contradiction,0.0,,,
+N-024a,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:51:36,0.0,1024,111a42e5,implication ,,stop,test,implication,,implication,1.0,,,
+N-024b,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:51:38,0.0,1024,03ae2580,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-024c,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:51:41,0.0,1024,504e0f05,implication ,,stop,test,neutre,,implication,0.0,,,
+N-024a,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:51:43,0.0,1024,b4adb2e2,contradiction ,,stop,test,implication,,contradiction,0.0,,,
+N-024b,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:51:45,0.0,1024,19a2439f,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-024c,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:51:47,0.0,1024,566b819c,contradiction ,,stop,test,neutre,,contradiction,0.0,,,
+N-025a,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:51:48,0.0,1024,63780fd3,implication ,,stop,test,implication,,implication,1.0,,,
+N-025b,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:51:50,0.0,1024,a5bb7bc0,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-025c,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:51:52,0.0,1024,51b9df3b,implication ,,stop,test,neutre,,implication,0.0,,,
+N-025a,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:51:54,0.0,1024,7a96c931,implication ,,stop,test,implication,,implication,1.0,,,
+N-025b,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:51:56,0.0,1024,7a1050f8,implication ,,stop,test,contradiction,,implication,0.0,,,
+N-025c,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:51:58,0.0,1024,9cba74ee,contradiction ,,stop,test,neutre,,contradiction,0.0,,,
+N-026a,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:52:02,0.0,1024,5bf6f187,implication ,,stop,test,implication,,implication,1.0,,,
+N-026b,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:52:04,0.0,1024,1ad58e68,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-026c,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:52:06,0.0,1024,f63266fc,implication ,,stop,test,neutre,,implication,0.0,,,
+N-026a,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:52:08,0.0,1024,e8f5a833,implication ,,stop,test,implication,,implication,1.0,,,
+N-026b,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:52:10,0.0,1024,c361bc05,implication ,,stop,test,contradiction,,implication,0.0,,,
+N-026c,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:52:13,0.0,1024,80342b9e,contradiction ,,stop,test,neutre,,contradiction,0.0,,,
+N-027a,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:52:15,0.0,1024,beecf31f,implication ,,stop,test,implication,,implication,1.0,,,
+N-027b,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:52:16,0.0,1024,787a3c90,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-027c,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:52:19,0.0,1024,b5267fd9,contradiction ,,stop,test,neutre,,contradiction,0.0,,,
+N-027a,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:52:21,0.0,1024,9f391dc0,implication ,,stop,test,implication,,implication,1.0,,,
+N-027b,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:52:23,0.0,1024,a630eff3,implication ,,stop,test,contradiction,,implication,0.0,,,
+N-027c,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:52:25,0.0,1024,4a7bee4d,contradiction ,,stop,test,neutre,,contradiction,0.0,,,
+N-028a,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:52:27,0.0,1024,d864d992,contradiction ,,stop,test,implication,,contradiction,0.0,,,
+N-028b,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:52:29,0.0,1024,96636493,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-028c,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:52:31,0.0,1024,4b1511a8,implication ,,stop,test,neutre,,implication,0.0,,,
+N-028a,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:52:35,0.0,1024,e6fa3c67,contradiction ,,stop,test,implication,,contradiction,0.0,,,
+N-028b,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:52:38,0.0,1024,41a1218b,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-028c,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:52:40,0.0,1024,36700465,implication ,,stop,test,neutre,,implication,0.0,,,
+N-029a,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:52:41,0.0,1024,38cf3c48,implication ,,stop,test,implication,,implication,1.0,,,
+N-029b,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:52:44,0.0,1024,80ae044f,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-029c,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:52:48,0.0,1024,9634e94b,implication ,,stop,test,neutre,,implication,0.0,,,
+N-029a,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:52:50,0.0,1024,b5b44da0,contradiction ,,stop,test,implication,,contradiction,0.0,,,
+N-029b,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:52:52,0.0,1024,254a2035,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-029c,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:53:03,0.0,1024,5d3c6bfe,contradiction ,,stop,test,neutre,,contradiction,0.0,,,
+N-030a,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:53:14,0.0,1024,c8320f25,implication ,,stop,test,implication,,implication,1.0,,,
+N-030b,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:53:16,0.0,1024,3df49fad,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-030c,nli,ar,allam-2-7b,allam-2-7b,2026-10-26T23:53:19,0.0,1024,104f82ed,implication ,,stop,test,neutre,,implication,0.0,,,
+N-030a,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:53:21,0.0,1024,4f0717af,contradiction ,,stop,test,implication,,contradiction,0.0,,,
+N-030b,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:53:23,0.0,1024,79e11a05,contradiction ,,stop,test,contradiction,,contradiction,1.0,,,
+N-030c,nli,lat,allam-2-7b,allam-2-7b,2026-10-26T23:53:26,0.0,1024,7392dbd9,implication ,,stop,test,neutre,,implication,0.0,,,
+C-028,conversion,ar,allam-2-7b,allam-2-7b,2026-10-26T23:53:28,0.0,1024,1b8c64e2,"واش تقدر تعاوني نهز هاد الصاك ثقيل؟ 
+
+الترجمة بالعربية الفصحى: ""هل تستطيع مساعدتي في حمل هذا الحقيبة الثقيلة؟"" ",,stop,test,Wach t9der t3awni nhez had ssak t9il?,wach tqder t3aweni nhez had sac tqil|wach t9dr t3awni,واش تقدر تعاوني نهز هاد الصاك ثقيل؟,0.0,0.861,1.0,0.0
+C-028,conversion,lat,allam-2-7b,allam-2-7b,2026-10-26T23:53:29,0.0,1024,c137ab37,واش تفهم تواصلي هاذ الشي هاد الساك تايقول؟ ,,stop,test,واش تقدر تعاوني نهز هاد الصاك ثقيل؟,واش تقدر تعاوني نهز هاد الصاك ثقيل?,واش تفهم تواصلي هاذ الشي هاد الساك تايقول؟,0.0,0.559,0.643,1.0
+C-029,conversion,ar,allam-2-7b,allam-2-7b,2026-10-26T23:53:35,0.0,1024,890cd4fe,"هاد القمجة جاتني ضيقة بزاف خاصني نبدلها. 
+
+في هذه الترجمة، قمت بتحويل الكلمات من العربية المغربية إلى العربية بالحروف اللاتينية مع الحفاظ على المعنى الأصلي للجملة. ",,stop,test,Had l9amija jatni ddy9a bzaf khasni nbeddelha.,had qamija jatni ddiqa bzzaf khasni nbdlha|had l9mija jatni dy9a,هاد القمجة جاتني ضيقة بزاف خاصني نبدلها.,0.0,0.857,1.0,0.0
+C-029,conversion,lat,allam-2-7b,allam-2-7b,2026-10-26T23:53:37,0.0,1024,eddfb5a4,هاد الجريدة جاتني باردة بزاف خاصني نبدلها. ,,stop,test,هاد القميجة جاتني ضيقة بزاف خاصني نبدلها.,هاد القميجة جاتني ضيقة بزاف خاصني نبدلها.,هاد الجريدة جاتني باردة بزاف خاصني نبدلها.,0.0,0.175,0.206,1.0
+C-030,conversion,ar,allam-2-7b,allam-2-7b,2026-10-26T23:53:40,0.0,1024,2e75e10e,الشتة طاوحت اليوم والجو تبدّل ولا بارد. ,,stop,test,Chta ta7et lyoma w ljow tbeddel wlla bared.,chita tahet lyom w ljaw tbedel wla bared|chta ta7t lyoma,الشتة طاوحت اليوم والجو تبدّل ولا بارد.,0.0,0.875,1.0,0.0
+C-030,conversion,lat,allam-2-7b,allam-2-7b,2026-10-26T23:53:42,0.0,1024,69a833e5,شحال غايب لينا النهار وتبدّل واللى ما بدى ,,stop,test,الشتا طاحت اليوم والجو تبدل ولا بارد.,الشتا طاحت اليوم والجو تبدل ولا بارد.,شحال غايب لينا النهار وتبدّل واللى ما بدى,0.0,0.639,0.7,1.0
+C-031,conversion,ar,allam-2-7b,allam-2-7b,2026-10-26T23:53:44,0.0,1024,d8dab00a,"عْفَاك زِيدْنِي شْوِيَة دِيَال الْخُبْز وَالْمَا سْخُون. 
+
+في هذه الترجمة، قمت بتحويل الكلمات من العربية الفصحى إلى العربية المغربية باستخدام الحروف اللاتينية. العبارة تعني ""عفاك (شكراً لك) زيدني (أعطيني) شوية (قليلاً) ديال (من) الخبز (الخبز) والما (والماء) سخون (الساخن)"". ",,stop,test,3afak zidni chwiya dyal lkhobz w lma skhoun.,3afak zidni chwia dial lkhobz w lma skhon|3afak zidni lkhobz,عْفَاك زِيدْنِي شْوِيَة دِيَال الْخُبْز وَالْمَا سْخُون.,0.0,0.854,1.0,0.0
+C-031,conversion,lat,allam-2-7b,allam-2-7b,2026-10-26T23:53:46,0.0,1024,c3e9111a,عَفَاك زِدْنِي شَيْئًا مِنْ الْخُبْزِ وَالْمَاءِ السِّكِّين. ,,stop,test,عفاك زيدني شوية ديال الخبز والما سخون.,عفاك زيدني شوية ديال الخبز والما سخون.,عَفَاك زِدْنِي شَيْئًا مِنْ الْخُبْزِ وَالْمَاءِ السِّكِّين.,0.0,0.351,0.387,1.0
+C-032,conversion,ar,allam-2-7b,allam-2-7b,2026-10-26T23:53:56,0.0,1024,7765caca,"الوالدة ديماً كتوصيني نرد البال لراسي فالزنقَة. 
+
+في هذه الترجمة، قمت بتحويل الكلمات من الدارجة المغربية إلى العربية باستخدام الحروف اللاتينية مع الحفاظ على المعنى الأصلي للجملة. ",,stop,test,Lwalida dima katwessini nredd lbal l rassi f zzen9a.,lwalida dima katwsini nred lbal l rasi f zanqa|lwalida dima katwessini,الوالدة ديماً كتوصيني نرد البال لراسي فالزنقَة.,0.0,0.882,1.0,0.0
+C-032,conversion,lat,allam-2-7b,allam-2-7b,2026-10-26T23:53:58,0.0,1024,77452d82,الوليدة ديما كتونسيني نرد البال للراس ف الزنقة. ,,stop,test,الوالدة ديما كتوصيني نرد البال ل راسي فالزنقة.,الوالدة ديما كتوصيني نرد البال ل راسي فالزنقة.,الوليدة ديما كتونسيني نرد البال للراس ف الزنقة.,0.0,0.156,0.158,1.0
